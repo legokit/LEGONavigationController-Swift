@@ -2,25 +2,20 @@
 //  ViewController.swift
 //  LEGONavigationController-Swift
 //
-//  Created by 564008993@qq.com on 07/28/2020.
-//  Copyright (c) 2020 564008993@qq.com. All rights reserved.
+//  Created by 杨庆人 on 2020/7/28.
+//  Copyright © 2020 杨庆人. All rights reserved.
 //
 
 import UIKit
-import LEGONavigationController_Swift
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
                 
-        // Do any additional setup after loading the view, typically from a nib.
+        // Do any additional setup after loading the view.
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
 
 }
 

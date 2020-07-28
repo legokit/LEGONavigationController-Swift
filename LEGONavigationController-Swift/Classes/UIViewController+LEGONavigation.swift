@@ -31,6 +31,6 @@ extension UIViewController {
     
     /// 由于 Swift 的方法替换没有很好的支持，故需要 addsubview 最后显示调用 bringSubviewToFront
     func bringNavigationToFront() {
-        self.view.bringSubview(toFront: self.navigationView())
+        self.view.bringSubviewToFront(self.navigationView())
     }
 }

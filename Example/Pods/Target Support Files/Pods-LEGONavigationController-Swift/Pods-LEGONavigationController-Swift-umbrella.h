@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_LEGONavigationController_Swift_TestsVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_LEGONavigationController_Swift_TestsVersionString[];
+FOUNDATION_EXPORT double Pods_LEGONavigationController_SwiftVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_LEGONavigationController_SwiftVersionString[];
 

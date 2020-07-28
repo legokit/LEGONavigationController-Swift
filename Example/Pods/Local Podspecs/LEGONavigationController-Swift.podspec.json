@@ -16,9 +16,9 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "9.0"
+    "ios": "10.0"
   },
-  "source_files": "LEGONavigationController-Swift/Classes/**/*",
+  "source_files": "LEGONavigationController-Swift/**/*.{swift,h,m}",
   "resources": "LEGONavigationController-Swift/Assets/*.bundle",
   "frameworks": [
     "UIKit",
