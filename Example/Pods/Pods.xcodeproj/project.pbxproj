@@ -6,271 +6,226 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		A9C3E2905E90355ADA4C8898E7169E1C /* LEGONavigationController-Swift */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 72BBA25464A33BC2EAA3378B22E3707F /* Build configuration list for PBXAggregateTarget "LEGONavigationController-Swift" */;
+			buildPhases = (
+			);
+			dependencies = (
+				891E0863FDA95C1B5CCD667D6E1D38F5 /* PBXTargetDependency */,
+			);
+			name = "LEGONavigationController-Swift";
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		076E19EAFC0DAB4208343720C1FB7249 /* ConstraintDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA070155DE459F51A650261C10EA9CB /* ConstraintDSL.swift */; };
-		0FA681CCE43B4DD40007ACBB5B8674E4 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E769393FE2F7DCF3E342575F5DF05239 /* SnapKit.framework */; };
-		16CDE3DCDCB573F99E377871CAD5DF8C /* LEGONavigationController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EF9B9DB3994DCC908F0BCF993D91D47B /* LEGONavigationController.bundle */; };
-		172E637006C30E632098C0C9723051B9 /* Pods-LEGO-NavigationController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 72258DDA3FF2C0D267A301054C530F78 /* Pods-LEGO-NavigationController_Tests-dummy.m */; };
-		17696C7BAADB9EA6E0B1EFC210812268 /* Pods-LEGO-NavigationController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E34662AD01000301C0A89CE023912692 /* Pods-LEGO-NavigationController_Example-dummy.m */; };
-		199DBD2E051C18FD06A6B50DAF0F6C8C /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2D0C7209EFA17EFECCB8074F0E9071 /* ConstraintAttributes.swift */; };
-		206797C0FC0197206DA59597B48AFE71 /* Pods-LEGO-NavigationController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 479BE56CE89CF7F12233232C6119A600 /* Pods-LEGO-NavigationController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		22FA2F8417C1356A50F26F0B4AB44D78 /* SnapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 42EDC7C7A525E5D5191CA0B7A731184D /* SnapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2842084D320CE055A80B80072BBFD0FB /* ConstraintMakerPriortizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DD21F59E9ABB6CFA8B14FAEE0B52DA /* ConstraintMakerPriortizable.swift */; };
-		29762A0DF0BA60AEF21F2F401634EBC3 /* UIView+LEGONavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC341E2E94A7716134C23FCBCA1F9D4 /* UIView+LEGONavigation.swift */; };
-		2F32F72BD055DC92F75C41A7878FC955 /* ConstraintConstantTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F10AA484FE3CE9A074FF4CA855D1C7 /* ConstraintConstantTarget.swift */; };
-		3DA9DB533B5A1563FED2D4DD2E2D23FB /* ConstraintLayoutGuideDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7413D1E3B3849A8B98CECBCB1E3EA510 /* ConstraintLayoutGuideDSL.swift */; };
-		41606093D0C3C5AAE5173B1CB9E7F6C3 /* ConstraintViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C2F3330EB4A39DC3B20B40D8981F66 /* ConstraintViewDSL.swift */; };
-		42BD32FFA38C2A202D7C70D01B8DEE37 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6E9D9A9A36CAC6827C30D02B1B414B /* Constraint.swift */; };
-		45650F8DEA3DAF4C1994E8C7E2A91B6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5A5D43734115D0BBEB15840ADAF1482 /* Foundation.framework */; };
-		52B357969384CD509D28966BE36D524C /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103B8B35502B427E3F46D5237C681DCB /* LayoutConstraint.swift */; };
-		5515A721D93418ABE27CD01BFD7961AB /* ConstraintMakerEditable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766CC484A3E4DD46665D9EF06679B007 /* ConstraintMakerEditable.swift */; };
-		583A5C039468012B60A2BA1F50021D26 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 867F734B2B72D6AC7D93E69C704AF60F /* UIKit.framework */; };
-		5B459335F8CCECA4FD210219521F14B8 /* ConstraintInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C81B0C23EADA502AA9895105ACF93AD /* ConstraintInsets.swift */; };
-		5D826F85DC48E3E1594762724322D208 /* ConstraintLayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460FE348E93FFA86EF28B0DE4C0F4A7D /* ConstraintLayoutGuide.swift */; };
-		5D9FB3D547337CB3CF92135B0F6B1909 /* ConstraintView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5975457FA577D667D0257900DF1D4FDD /* ConstraintView+Extensions.swift */; };
-		600D721B5F082F7B50F5EF02299D2537 /* ConstraintMakerExtendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7478F64EB1BC7B207D2133307B4B5015 /* ConstraintMakerExtendable.swift */; };
-		661F170FE86731910D58B91FBE554AC9 /* ConstraintMakerRelatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E887F5BC85E664CAF1EAD58DB6EF027D /* ConstraintMakerRelatable.swift */; };
-		68AFFE7EEE43C6AB5239201D6AD48C8B /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB01221055BDABDD47999C671F4A9BD /* ConstraintItem.swift */; };
-		69EC1085EF63830764B47C13C07CEC42 /* ConstraintLayoutGuide+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4230A725EDA6C25944C70BFF90CCC3F4 /* ConstraintLayoutGuide+Extensions.swift */; };
-		6CC739E7F72C2ADF86F87C098A6D2C08 /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F8B378A0D395518DE2DD11AE4B6F98 /* ConstraintMaker.swift */; };
-		70A2244102F9F67AFEE69601C1D686AD /* ConstraintLayoutSupportDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89552C29B3090667057D8E56D2C3D81 /* ConstraintLayoutSupportDSL.swift */; };
-		71567C28A8DD99FB960421A097E3F402 /* LayoutConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EFECCF7F4E78B3021A97741173FC2F /* LayoutConstraintItem.swift */; };
-		7302E6BD33C59156AF241B0C561D34AC /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D8610217E033F12A628571FD3D1684 /* Typealiases.swift */; };
-		789BDF79D14F5E7FA62BE495839898C5 /* ConstraintInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5597D051B6350A61151221E8BEE0D0 /* ConstraintInsetTarget.swift */; };
-		7958FCD80C60D8E032A2C24E7E0C160E /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BB2CE9C8C7607CDA3E1B49246B760E /* Debugging.swift */; };
-		852F03F4B97F5FB0C10502F23926719D /* ConstraintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3284DB6C9BFEF88606695BBC11E150 /* ConstraintView.swift */; };
-		879BDCD813001DE6320E389A87BDF2CF /* ConstraintMakerFinalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3146B382C3292E28917B8CF4356923 /* ConstraintMakerFinalizable.swift */; };
-		89367608D55B5C7474696EC187FC52F6 /* LEGO-NavigationController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5361AD5B3FC7C9909487D9D91E12DF9D /* LEGO-NavigationController-dummy.m */; };
-		95AC51A41146B5898C9BBE46DC8EF2F4 /* LEGONavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6DA652D58967C792E259D98FF344DF /* LEGONavigationView.swift */; };
-		98FE5EA0B1E353005A1F7D39C5FF719F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5A5D43734115D0BBEB15840ADAF1482 /* Foundation.framework */; };
-		A02AFF0D081E07A7AB5538DA47A29306 /* UIViewController+LEGONavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9448F909643FF98A4E50D0F483358715 /* UIViewController+LEGONavigation.swift */; };
-		A2F8853CEB15D47566D15486630E9A62 /* LEGONavigationView+LEGONavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1403EB32A456D681BAF59E5ED086155E /* LEGONavigationView+LEGONavigation.swift */; };
-		A32A347123DB6B5BC25DC2F1D03A7E4C /* LEGONavigationComman.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D4554F8D84F405087E318C7C25900C /* LEGONavigationComman.swift */; };
-		A970E0504F6BB854D8A8B74A22AFA9C1 /* ConstraintPriorityTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6199B0E33536DD7E23A71C2A1DFA3CB3 /* ConstraintPriorityTarget.swift */; };
-		C1E8220AA924029E86318FBE82D92892 /* ConstraintConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3499D06B7741051669EFC6E6A929A57 /* ConstraintConfig.swift */; };
-		C20A3BD09F9D14535983AD597174F8D8 /* Pods-LEGO-NavigationController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A58B096594289574F1F71C81ED3D395D /* Pods-LEGO-NavigationController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C4DC941CF961F8776505CFDB339BE2AF /* UILayoutSupport+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCD15E7A2AFE53263B4335C9B3D9813 /* UILayoutSupport+Extensions.swift */; };
-		C660F0AF37EEE0203024B2D8EF352651 /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CACD95C459F4D08F9C1E57893F55090 /* ConstraintDescription.swift */; };
-		C93F5B9800B8B6303CFA00366C29372C /* ConstraintOffsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91102F716DCE9969F79474488AEA2BFD /* ConstraintOffsetTarget.swift */; };
-		CB5F89F08AF22F769367719AE9E1D216 /* ConstraintMultiplierTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51566D0AF41FEBB1DD1BB7CA86B07225 /* ConstraintMultiplierTarget.swift */; };
-		D5384F4F7ACFD8362AE92FF5C673E24E /* ConstraintRelatableTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807F5279ECA1E77BEC4455F1645BF6D7 /* ConstraintRelatableTarget.swift */; };
-		DF4040EF6F9597F7D836723C6B424292 /* SnapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1B5C574EC29B2A222C6281A4A0B3BC /* SnapKit-dummy.m */; };
-		E3863BC256938946AA1C27FFB8F8A00A /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C80000E1CA4369B2E82035A1825982D /* ConstraintRelation.swift */; };
-		E3BC2169DA294A60991D98C280E83553 /* ConstraintPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F1A25F3C9883F6A0A4428D8AFC44B2 /* ConstraintPriority.swift */; };
-		E4DE03BA721F4122E2F40188EDF96413 /* LEGONavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98B75004285D77A0713B10FDA5E60FA /* LEGONavigationController.swift */; };
-		ED55578B589B06A33C8BA85D7D3AA9DB /* ConstraintLayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D6B4E640B3D09C454814F36856E2EE /* ConstraintLayoutSupport.swift */; };
-		EFFB334CB28198216328E7482F6A89F3 /* LEGO-NavigationController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF094EE7A54EB421475E674489D2589F /* LEGO-NavigationController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F7510919BFBF783314E0CC314AB35170 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5A5D43734115D0BBEB15840ADAF1482 /* Foundation.framework */; };
-		FFD19F9F32B7552388C3CC8EC1143C17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5A5D43734115D0BBEB15840ADAF1482 /* Foundation.framework */; };
+		0426678E216547470FB7D9371E81D91E /* ConstraintPriorityTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6199B0E33536DD7E23A71C2A1DFA3CB3 /* ConstraintPriorityTarget.swift */; };
+		056C7CAD3F83583947705CD88CAA17E9 /* ConstraintLayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460FE348E93FFA86EF28B0DE4C0F4A7D /* ConstraintLayoutGuide.swift */; };
+		063DF652C9983584F7E51691295F9F01 /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103B8B35502B427E3F46D5237C681DCB /* LayoutConstraint.swift */; };
+		0BC4E014738E4471546E4D012FC36E6D /* Pods-LEGONavigationController-Swift_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E5520C4ACC6F8831C0385E4C6F981B7 /* Pods-LEGONavigationController-Swift_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12294175AF9F043B45BADB56096F7ACE /* ConstraintPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F1A25F3C9883F6A0A4428D8AFC44B2 /* ConstraintPriority.swift */; };
+		12E2C81DF1E13E7B13E180342D1B0399 /* ConstraintViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C2F3330EB4A39DC3B20B40D8981F66 /* ConstraintViewDSL.swift */; };
+		22E2FF682B71BE4C0C3AA5201EBEC0DE /* ConstraintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3284DB6C9BFEF88606695BBC11E150 /* ConstraintView.swift */; };
+		2DE74A2A288EE747A3007E1E31F79CDE /* LayoutConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EFECCF7F4E78B3021A97741173FC2F /* LayoutConstraintItem.swift */; };
+		3273B055A5E69678D5CFD38AE70A7D94 /* ConstraintDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA070155DE459F51A650261C10EA9CB /* ConstraintDSL.swift */; };
+		32DE7F64D40E08D41BBF575FB78C8260 /* ConstraintRelatableTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807F5279ECA1E77BEC4455F1645BF6D7 /* ConstraintRelatableTarget.swift */; };
+		37588E3E4DA890F35A6BDA53EC31CC43 /* SnapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 42EDC7C7A525E5D5191CA0B7A731184D /* SnapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		401231790ACC95B8C4791259E1C20441 /* UILayoutSupport+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCD15E7A2AFE53263B4335C9B3D9813 /* UILayoutSupport+Extensions.swift */; };
+		45027E4DB67DC2C78C85DE572485E4F6 /* ConstraintMultiplierTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51566D0AF41FEBB1DD1BB7CA86B07225 /* ConstraintMultiplierTarget.swift */; };
+		46C7B1AF55B368BF5322A6065E6C5FFB /* ConstraintInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C81B0C23EADA502AA9895105ACF93AD /* ConstraintInsets.swift */; };
+		547F78ADACA50A9730C03D68DD84FED2 /* ConstraintConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3499D06B7741051669EFC6E6A929A57 /* ConstraintConfig.swift */; };
+		60108CECA995766833F37EAA1C92E506 /* ConstraintMakerExtendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7478F64EB1BC7B207D2133307B4B5015 /* ConstraintMakerExtendable.swift */; };
+		621E4B9D5E9683B58E8E764330F39659 /* Pods-LEGONavigationController-Swift_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D8FF280319143330FF20AA8152A4AB6 /* Pods-LEGONavigationController-Swift_Example-dummy.m */; };
+		647CEA30CA3033A988B22FD426CDE78A /* ConstraintLayoutSupportDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89552C29B3090667057D8E56D2C3D81 /* ConstraintLayoutSupportDSL.swift */; };
+		64E78C3DBAD14FA1AABA5E146805BB13 /* SnapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1B5C574EC29B2A222C6281A4A0B3BC /* SnapKit-dummy.m */; };
+		6E375C76C9F97D0E08B77A991B178D9E /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CACD95C459F4D08F9C1E57893F55090 /* ConstraintDescription.swift */; };
+		6EB07E377F7A4A0D99DDB50A6E1B28B3 /* ConstraintConstantTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F10AA484FE3CE9A074FF4CA855D1C7 /* ConstraintConstantTarget.swift */; };
+		7264AE1B3397A48882A9C3037FD4C9CC /* ConstraintLayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D6B4E640B3D09C454814F36856E2EE /* ConstraintLayoutSupport.swift */; };
+		7292BD60AA46F1038E155AA1146E53D8 /* ConstraintInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5597D051B6350A61151221E8BEE0D0 /* ConstraintInsetTarget.swift */; };
+		7AD22D8A8226C5F75EB1D02E6469A1AC /* ConstraintMakerFinalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3146B382C3292E28917B8CF4356923 /* ConstraintMakerFinalizable.swift */; };
+		7E3A0B654B2CB1EAE636D2E57CAD1084 /* ConstraintMakerPriortizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DD21F59E9ABB6CFA8B14FAEE0B52DA /* ConstraintMakerPriortizable.swift */; };
+		7F85669C3825629375AD2F8BD4E90D60 /* ConstraintLayoutGuideDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7413D1E3B3849A8B98CECBCB1E3EA510 /* ConstraintLayoutGuideDSL.swift */; };
+		8937244CDA8E3DD99663C1CB286716B8 /* ConstraintLayoutGuide+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4230A725EDA6C25944C70BFF90CCC3F4 /* ConstraintLayoutGuide+Extensions.swift */; };
+		8F2E0340415199404E33A952B8523478 /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BB2CE9C8C7607CDA3E1B49246B760E /* Debugging.swift */; };
+		A1995A910BA996B567476459B9C4458A /* ConstraintOffsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91102F716DCE9969F79474488AEA2BFD /* ConstraintOffsetTarget.swift */; };
+		A89C497CFA7A279C56F32CC10E8EC10D /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C80000E1CA4369B2E82035A1825982D /* ConstraintRelation.swift */; };
+		A8FF42D3B0904BB5DDB287B76B4640F7 /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB01221055BDABDD47999C671F4A9BD /* ConstraintItem.swift */; };
+		B007E76266BF9125C4CD2501073A3387 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		B21B491985985BA2405BAE8F2943E56F /* ConstraintMakerEditable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766CC484A3E4DD46665D9EF06679B007 /* ConstraintMakerEditable.swift */; };
+		BAE8B432CBF9D52ECA7591D4826E4DD1 /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D8610217E033F12A628571FD3D1684 /* Typealiases.swift */; };
+		C07CF6BDCDAFF299336C4B91F1F41CCD /* ConstraintMakerRelatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E887F5BC85E664CAF1EAD58DB6EF027D /* ConstraintMakerRelatable.swift */; };
+		C33F9C7BFB6D5C71A3BFB47AB2CBCE93 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C82031ADD18665AA27744853883F7CB8 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6E9D9A9A36CAC6827C30D02B1B414B /* Constraint.swift */; };
+		CC914B86D7BDE31B5F4540E587B1B6F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		D4D7B7E9CE36610B74DC11E28AF948FA /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F8B378A0D395518DE2DD11AE4B6F98 /* ConstraintMaker.swift */; };
+		D838BF789014BDBCC01246FCB2B6DBBA /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2D0C7209EFA17EFECCB8074F0E9071 /* ConstraintAttributes.swift */; };
+		E4D91B949952FF7B8B0BDF2BA3F55725 /* Pods-LEGONavigationController-Swift_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E32C4E5953321C9E78335576F16E818 /* Pods-LEGONavigationController-Swift_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA586BBFC11ACEEBD12CADEE88C19F7E /* ConstraintView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5975457FA577D667D0257900DF1D4FDD /* ConstraintView+Extensions.swift */; };
+		FCAB1450D254EECB0BF8077EF52DAB6A /* Pods-LEGONavigationController-Swift_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FB87829438AB7C37FF0B0031BC7254 /* Pods-LEGONavigationController-Swift_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		23CD14451CFA760A51589C7554D1DC8F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9489208F6C376EC6D10E8C42C18B2C1A;
-			remoteInfo = "LEGO-NavigationController";
-		};
-		5E60046FEE2D38CC7B766661C21EDB00 /* PBXContainerItemProxy */ = {
+		01653A5295A04BF29B685E65404A0066 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 19622742EBA51E823D6DAE3F8CDBFAD4;
 			remoteInfo = SnapKit;
 		};
-		9B042C637AB6FC6D9A18FE956E32D32D /* PBXContainerItemProxy */ = {
+		14200ADD94F037DDFCC83C60A7E08D84 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A0E368D95196B3867D51D549176A1D30;
-			remoteInfo = "Pods-LEGO-NavigationController_Example";
+			remoteGlobalIDString = A9C3E2905E90355ADA4C8898E7169E1C;
+			remoteInfo = "LEGONavigationController-Swift";
 		};
-		9D6EC059380818FCF38A935A3DBA0A8B /* PBXContainerItemProxy */ = {
+		64DA36B3ECEC11E463A93E549EE4B7F9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 19622742EBA51E823D6DAE3F8CDBFAD4;
 			remoteInfo = SnapKit;
+		};
+		9119943F022E187E69258FF1673656A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E71526A0B52215EE271B762598C4D79;
+			remoteInfo = "Pods-LEGONavigationController-Swift_Example";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		00BB2CE9C8C7607CDA3E1B49246B760E /* Debugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debugging.swift; path = Source/Debugging.swift; sourceTree = "<group>"; };
 		00EFECCF7F4E78B3021A97741173FC2F /* LayoutConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraintItem.swift; path = Source/LayoutConstraintItem.swift; sourceTree = "<group>"; };
-		06FA3A898F35A825077A70EE7E027966 /* Pods-LEGO-NavigationController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LEGO-NavigationController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		07F3D35A901E10C40658C511EA650DD1 /* Pods-LEGO-NavigationController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LEGO-NavigationController_Example.release.xcconfig"; sourceTree = "<group>"; };
+		050B52D402F5AAAA7D3E171705337B02 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		09C2F3330EB4A39DC3B20B40D8981F66 /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintViewDSL.swift; path = Source/ConstraintViewDSL.swift; sourceTree = "<group>"; };
 		103B8B35502B427E3F46D5237C681DCB /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Source/LayoutConstraint.swift; sourceTree = "<group>"; };
-		1403EB32A456D681BAF59E5ED086155E /* LEGONavigationView+LEGONavigation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LEGONavigationView+LEGONavigation.swift"; path = "LEGO-NavigationController/Classes/LEGONavigationView+LEGONavigation.swift"; sourceTree = "<group>"; };
 		1C81B0C23EADA502AA9895105ACF93AD /* ConstraintInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsets.swift; path = Source/ConstraintInsets.swift; sourceTree = "<group>"; };
-		1E197EB329528A08199355BB4DC86009 /* LEGO-NavigationController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "LEGO-NavigationController.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		27BF3BCFECC7AD92ABA3BE36B4AD9D3F /* LEGO_NavigationController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LEGO_NavigationController.framework; path = "LEGO-NavigationController.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D8FF280319143330FF20AA8152A4AB6 /* Pods-LEGONavigationController-Swift_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LEGONavigationController-Swift_Example-dummy.m"; sourceTree = "<group>"; };
+		24F13FD4F4791E7BBF0E6920B1414D20 /* LEGONavigationController-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "LEGONavigationController-Swift.debug.xcconfig"; sourceTree = "<group>"; };
+		25D55FCAC802EEC5C267B81695D239A7 /* Pods-LEGONavigationController-Swift_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LEGONavigationController-Swift_Example-Info.plist"; sourceTree = "<group>"; };
 		29693EC049D6AC1AE94A7B743D01A9AB /* SnapKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.debug.xcconfig; sourceTree = "<group>"; };
-		31DF3C0BA6B66F57AE0B35585A81593F /* Pods-LEGO-NavigationController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LEGO-NavigationController_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		32FE1EFA637DC4506704AAA9C734569B /* LEGO-NavigationController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LEGO-NavigationController-Info.plist"; sourceTree = "<group>"; };
-		368CA27610C3DA302FC86AD8435566EA /* Pods-LEGO-NavigationController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LEGO-NavigationController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2E32C4E5953321C9E78335576F16E818 /* Pods-LEGONavigationController-Swift_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LEGONavigationController-Swift_Example-umbrella.h"; sourceTree = "<group>"; };
+		3001236B8207AEF3ADE27CA283ABC24A /* Pods-LEGONavigationController-Swift_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LEGONavigationController-Swift_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		30C21F0E557E035ECEAF9E8EEE7B230C /* Pods-LEGONavigationController-Swift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LEGONavigationController-Swift_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		37F1A25F3C9883F6A0A4428D8AFC44B2 /* ConstraintPriority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriority.swift; path = Source/ConstraintPriority.swift; sourceTree = "<group>"; };
 		3B569D02FFB2C8143A71D4511C970AC4 /* SnapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-prefix.pch"; sourceTree = "<group>"; };
-		3E5BA8474A59F014EB7CAE650E16966F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		4230A725EDA6C25944C70BFF90CCC3F4 /* ConstraintLayoutGuide+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintLayoutGuide+Extensions.swift"; path = "Source/ConstraintLayoutGuide+Extensions.swift"; sourceTree = "<group>"; };
 		42EDC7C7A525E5D5191CA0B7A731184D /* SnapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-umbrella.h"; sourceTree = "<group>"; };
+		42FB87829438AB7C37FF0B0031BC7254 /* Pods-LEGONavigationController-Swift_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LEGONavigationController-Swift_Tests-dummy.m"; sourceTree = "<group>"; };
+		44E7C2762AEEE6DBC7BA1C5A25C0DD57 /* Pods-LEGONavigationController-Swift_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LEGONavigationController-Swift_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		460FE348E93FFA86EF28B0DE4C0F4A7D /* ConstraintLayoutGuide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuide.swift; path = Source/ConstraintLayoutGuide.swift; sourceTree = "<group>"; };
 		46F8B378A0D395518DE2DD11AE4B6F98 /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = Source/ConstraintMaker.swift; sourceTree = "<group>"; };
-		479BE56CE89CF7F12233232C6119A600 /* Pods-LEGO-NavigationController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LEGO-NavigationController_Example-umbrella.h"; sourceTree = "<group>"; };
 		4DCD15E7A2AFE53263B4335C9B3D9813 /* UILayoutSupport+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILayoutSupport+Extensions.swift"; path = "Source/UILayoutSupport+Extensions.swift"; sourceTree = "<group>"; };
 		51566D0AF41FEBB1DD1BB7CA86B07225 /* ConstraintMultiplierTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMultiplierTarget.swift; path = Source/ConstraintMultiplierTarget.swift; sourceTree = "<group>"; };
-		5361AD5B3FC7C9909487D9D91E12DF9D /* LEGO-NavigationController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LEGO-NavigationController-dummy.m"; sourceTree = "<group>"; };
-		56C96A445916FE6DCF415F483191B3A8 /* Pods-LEGO-NavigationController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LEGO-NavigationController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		54402B17215BD9809B6FA082269E7166 /* Pods-LEGONavigationController-Swift_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LEGONavigationController-Swift_Example.modulemap"; sourceTree = "<group>"; };
 		5975457FA577D667D0257900DF1D4FDD /* ConstraintView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintView+Extensions.swift"; path = "Source/ConstraintView+Extensions.swift"; sourceTree = "<group>"; };
 		6199B0E33536DD7E23A71C2A1DFA3CB3 /* ConstraintPriorityTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriorityTarget.swift; path = Source/ConstraintPriorityTarget.swift; sourceTree = "<group>"; };
 		6CACD95C459F4D08F9C1E57893F55090 /* ConstraintDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDescription.swift; path = Source/ConstraintDescription.swift; sourceTree = "<group>"; };
-		6D89E89F73373A702B500A465D944D21 /* Pods_LEGO_NavigationController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LEGO_NavigationController_Tests.framework; path = "Pods-LEGO-NavigationController_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		72258DDA3FF2C0D267A301054C530F78 /* Pods-LEGO-NavigationController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LEGO-NavigationController_Tests-dummy.m"; sourceTree = "<group>"; };
+		6D66325E2EE5AF751C00DCD3D6F51A46 /* Pods-LEGONavigationController-Swift_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LEGONavigationController-Swift_Tests.modulemap"; sourceTree = "<group>"; };
+		6E5520C4ACC6F8831C0385E4C6F981B7 /* Pods-LEGONavigationController-Swift_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LEGONavigationController-Swift_Tests-umbrella.h"; sourceTree = "<group>"; };
 		7413D1E3B3849A8B98CECBCB1E3EA510 /* ConstraintLayoutGuideDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuideDSL.swift; path = Source/ConstraintLayoutGuideDSL.swift; sourceTree = "<group>"; };
 		7478F64EB1BC7B207D2133307B4B5015 /* ConstraintMakerExtendable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerExtendable.swift; path = Source/ConstraintMakerExtendable.swift; sourceTree = "<group>"; };
 		766CC484A3E4DD46665D9EF06679B007 /* ConstraintMakerEditable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerEditable.swift; path = Source/ConstraintMakerEditable.swift; sourceTree = "<group>"; };
 		7A3284DB6C9BFEF88606695BBC11E150 /* ConstraintView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintView.swift; path = Source/ConstraintView.swift; sourceTree = "<group>"; };
-		7D10C38D056E68D326323575D668D7F2 /* Pods-LEGO-NavigationController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LEGO-NavigationController_Example-frameworks.sh"; sourceTree = "<group>"; };
 		807F5279ECA1E77BEC4455F1645BF6D7 /* ConstraintRelatableTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelatableTarget.swift; path = Source/ConstraintRelatableTarget.swift; sourceTree = "<group>"; };
 		848E9BA38AE7A77B37C78B343E836974 /* SnapKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SnapKit-Info.plist"; sourceTree = "<group>"; };
-		867F734B2B72D6AC7D93E69C704AF60F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		89A34A3947C0FEC05248D4931FEC94DA /* LEGONavigationController-Swift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "LEGONavigationController-Swift.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8C80000E1CA4369B2E82035A1825982D /* ConstraintRelation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelation.swift; path = Source/ConstraintRelation.swift; sourceTree = "<group>"; };
-		8E51B6D9EB503D7602BD44F07316094D /* LEGO-NavigationController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "LEGO-NavigationController.modulemap"; sourceTree = "<group>"; };
 		8F2D0C7209EFA17EFECCB8074F0E9071 /* ConstraintAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintAttributes.swift; path = Source/ConstraintAttributes.swift; sourceTree = "<group>"; };
 		91102F716DCE9969F79474488AEA2BFD /* ConstraintOffsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintOffsetTarget.swift; path = Source/ConstraintOffsetTarget.swift; sourceTree = "<group>"; };
-		9448F909643FF98A4E50D0F483358715 /* UIViewController+LEGONavigation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+LEGONavigation.swift"; path = "LEGO-NavigationController/Classes/UIViewController+LEGONavigation.swift"; sourceTree = "<group>"; };
+		959D32237F7CC368DBB5F7DC52EA4F40 /* Pods-LEGONavigationController-Swift_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LEGONavigationController-Swift_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		96DEF73BBAA1FC7D74AC26C064253403 /* LEGONavigationController-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "LEGONavigationController-Swift.release.xcconfig"; sourceTree = "<group>"; };
 		979486118B3E90C08386079D57962701 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SnapKit.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A3499D06B7741051669EFC6E6A929A57 /* ConstraintConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConfig.swift; path = Source/ConstraintConfig.swift; sourceTree = "<group>"; };
-		A58B096594289574F1F71C81ED3D395D /* Pods-LEGO-NavigationController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LEGO-NavigationController_Tests-umbrella.h"; sourceTree = "<group>"; };
-		A5A5D43734115D0BBEB15840ADAF1482 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		A6D4554F8D84F405087E318C7C25900C /* LEGONavigationComman.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LEGONavigationComman.swift; path = "LEGO-NavigationController/Classes/LEGONavigationComman.swift"; sourceTree = "<group>"; };
+		A90C2D52C517C5DAFE95D5E1C86AFBE2 /* Pods-LEGONavigationController-Swift_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LEGONavigationController-Swift_Example-frameworks.sh"; sourceTree = "<group>"; };
 		AB1B5C574EC29B2A222C6281A4A0B3BC /* SnapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapKit-dummy.m"; sourceTree = "<group>"; };
-		ACC341E2E94A7716134C23FCBCA1F9D4 /* UIView+LEGONavigation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+LEGONavigation.swift"; path = "LEGO-NavigationController/Classes/UIView+LEGONavigation.swift"; sourceTree = "<group>"; };
 		AD6E9D9A9A36CAC6827C30D02B1B414B /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Source/Constraint.swift; sourceTree = "<group>"; };
-		B626072535B720528E03E8B12D6143D9 /* Pods-LEGO-NavigationController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LEGO-NavigationController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B8BEF98EFE5AA5B53394A45BAC472945 /* SnapKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.release.xcconfig; sourceTree = "<group>"; };
 		BAA070155DE459F51A650261C10EA9CB /* ConstraintDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDSL.swift; path = Source/ConstraintDSL.swift; sourceTree = "<group>"; };
-		C0C5A4FC96B79094F871F27E1ED523D1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		BC3C22E7FC475A109EE654FA65D1974C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C37CF72D49651BBDB63D88DB412782F5 /* Pods-LEGONavigationController-Swift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LEGONavigationController-Swift_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C68A9EF13A66A91D74EA5493747B8A83 /* Pods-LEGONavigationController-Swift_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LEGONavigationController-Swift_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C884332D84AD5251A2A20E5D9F4B86A5 /* Pods-LEGONavigationController-Swift_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LEGONavigationController-Swift_Tests-Info.plist"; sourceTree = "<group>"; };
 		C89552C29B3090667057D8E56D2C3D81 /* ConstraintLayoutSupportDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupportDSL.swift; path = Source/ConstraintLayoutSupportDSL.swift; sourceTree = "<group>"; };
 		C8D6B4E640B3D09C454814F36856E2EE /* ConstraintLayoutSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupport.swift; path = Source/ConstraintLayoutSupport.swift; sourceTree = "<group>"; };
-		C98B75004285D77A0713B10FDA5E60FA /* LEGONavigationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LEGONavigationController.swift; path = "LEGO-NavigationController/Classes/LEGONavigationController.swift"; sourceTree = "<group>"; };
-		CFDB602FFAFBC946626C4876AE501CE0 /* LEGO-NavigationController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LEGO-NavigationController-prefix.pch"; sourceTree = "<group>"; };
+		C91818DE46C98E083B15C00B5277B6D7 /* Pods-LEGONavigationController-Swift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LEGONavigationController-Swift_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D0D8610217E033F12A628571FD3D1684 /* Typealiases.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Typealiases.swift; path = Source/Typealiases.swift; sourceTree = "<group>"; };
-		D284A42D040B17C75E63D90AD6DA3559 /* Pods-LEGO-NavigationController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LEGO-NavigationController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		D3DD21F59E9ABB6CFA8B14FAEE0B52DA /* ConstraintMakerPriortizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerPriortizable.swift; path = Source/ConstraintMakerPriortizable.swift; sourceTree = "<group>"; };
-		D75116F0D02F94D7405FF3E9C300B6C8 /* Pods-LEGO-NavigationController_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LEGO-NavigationController_Example-Info.plist"; sourceTree = "<group>"; };
-		D9B6991C82E818AEDFE77E726706093A /* Pods_LEGO_NavigationController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LEGO_NavigationController_Example.framework; path = "Pods-LEGO-NavigationController_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9F1B0A9583C1AF93FC205499515DD1F /* Pods_LEGONavigationController_Swift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LEGONavigationController_Swift_Example.framework; path = "Pods-LEGONavigationController-Swift_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA5597D051B6350A61151221E8BEE0D0 /* ConstraintInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsetTarget.swift; path = Source/ConstraintInsetTarget.swift; sourceTree = "<group>"; };
 		DBB01221055BDABDD47999C671F4A9BD /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Source/ConstraintItem.swift; sourceTree = "<group>"; };
-		DF094EE7A54EB421475E674489D2589F /* LEGO-NavigationController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LEGO-NavigationController-umbrella.h"; sourceTree = "<group>"; };
-		E1B3D04E1343FA5510CC19AC2810DA15 /* Pods-LEGO-NavigationController_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LEGO-NavigationController_Tests-Info.plist"; sourceTree = "<group>"; };
 		E1F10AA484FE3CE9A074FF4CA855D1C7 /* ConstraintConstantTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConstantTarget.swift; path = Source/ConstraintConstantTarget.swift; sourceTree = "<group>"; };
 		E2070246046EC94EF1396AC30E3FC5E8 /* SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SnapKit.modulemap; sourceTree = "<group>"; };
-		E34662AD01000301C0A89CE023912692 /* Pods-LEGO-NavigationController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LEGO-NavigationController_Example-dummy.m"; sourceTree = "<group>"; };
-		E769393FE2F7DCF3E342575F5DF05239 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E80973542C64508F7010E7A7471499DA /* Pods_LEGONavigationController_Swift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LEGONavigationController_Swift_Tests.framework; path = "Pods-LEGONavigationController-Swift_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E887F5BC85E664CAF1EAD58DB6EF027D /* ConstraintMakerRelatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerRelatable.swift; path = Source/ConstraintMakerRelatable.swift; sourceTree = "<group>"; };
-		EED8C3F70671B331D4C89CE3B9315C7F /* Pods-LEGO-NavigationController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LEGO-NavigationController_Tests.modulemap"; sourceTree = "<group>"; };
-		EF9B9DB3994DCC908F0BCF993D91D47B /* LEGONavigationController.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = LEGONavigationController.bundle; path = "LEGO-NavigationController/Assets/LEGONavigationController.bundle"; sourceTree = "<group>"; };
-		F35D5EF9039C9C012DC88B5D588A97D3 /* Pods-LEGO-NavigationController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LEGO-NavigationController_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F952A793A86D3B0A6F80A30D087D8E6A /* LEGO-NavigationController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "LEGO-NavigationController.debug.xcconfig"; sourceTree = "<group>"; };
-		FA6DA652D58967C792E259D98FF344DF /* LEGONavigationView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LEGONavigationView.swift; path = "LEGO-NavigationController/Classes/LEGONavigationView.swift"; sourceTree = "<group>"; };
-		FACBD6102F6C938D5CD1A3E87748A56F /* LEGO-NavigationController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "LEGO-NavigationController.release.xcconfig"; sourceTree = "<group>"; };
-		FAE03186B953226A35C3917C30A8B795 /* Pods-LEGO-NavigationController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LEGO-NavigationController_Example.modulemap"; sourceTree = "<group>"; };
 		FB3146B382C3292E28917B8CF4356923 /* ConstraintMakerFinalizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerFinalizable.swift; path = Source/ConstraintMakerFinalizable.swift; sourceTree = "<group>"; };
+		FE1CD035376FAF68C9AF587D72A17F15 /* Pods-LEGONavigationController-Swift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LEGONavigationController-Swift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		448883B32C09B1F44B23DFD69963989A /* Frameworks */ = {
+		0D3E69E3DAEA1C3F4B4F1A75DFE1BA69 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98FE5EA0B1E353005A1F7D39C5FF719F /* Foundation.framework in Frameworks */,
+				C33F9C7BFB6D5C71A3BFB47AB2CBCE93 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5A1C0D056EE95BF4658C822D562A9610 /* Frameworks */ = {
+		4E154E3D21738E8C9191AF3C19EC33F3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7510919BFBF783314E0CC314AB35170 /* Foundation.framework in Frameworks */,
+				CC914B86D7BDE31B5F4540E587B1B6F6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		97EE40EBECBE58DB5A9F02344825E082 /* Frameworks */ = {
+		DDA221970C0FD3BCBA737BD9DF1CDF94 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45650F8DEA3DAF4C1994E8C7E2A91B6D /* Foundation.framework in Frameworks */,
-				0FA681CCE43B4DD40007ACBB5B8674E4 /* SnapKit.framework in Frameworks */,
-				583A5C039468012B60A2BA1F50021D26 /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A17A7CABCF46836A525B4F78BDB4E446 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FFD19F9F32B7552388C3CC8EC1143C17 /* Foundation.framework in Frameworks */,
+				B007E76266BF9125C4CD2501073A3387 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		040271065E2E0D1F6D89FFE704DB583D /* iOS */ = {
+		1FA2ABDB3D860B6BAA973868788C78B9 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A5A5D43734115D0BBEB15840ADAF1482 /* Foundation.framework */,
-				867F734B2B72D6AC7D93E69C704AF60F /* UIKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		1CA1B4747A96B56A7B63E2495E7224CC /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				6CBAFCFB02AC813B9F08D8BBE085F7FD /* Pods-LEGO-NavigationController_Example */,
-				777BEE29B14E3FC643EF7A43FE9658FB /* Pods-LEGO-NavigationController_Tests */,
+				9BC4BBC878A618D6C28994EE62935C9F /* Pods-LEGONavigationController-Swift_Example */,
+				4138799126F512259386B423BC4EC352 /* Pods-LEGONavigationController-Swift_Tests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		2EB4B4732CF0E329A65C1A9308CD6026 /* Resources */ = {
+		2B5A98F6E170B405F0B4AB643FFA4846 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				EF9B9DB3994DCC908F0BCF993D91D47B /* LEGONavigationController.bundle */,
+				AE0A02E38E0B7B4847E0A7EC369FDF19 /* LEGONavigationController-Swift */,
 			);
-			name = Resources;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		317404F4EAC9A5961AFB4CC68CFE4E8E /* LEGO-NavigationController */ = {
+		4138799126F512259386B423BC4EC352 /* Pods-LEGONavigationController-Swift_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				A6D4554F8D84F405087E318C7C25900C /* LEGONavigationComman.swift */,
-				C98B75004285D77A0713B10FDA5E60FA /* LEGONavigationController.swift */,
-				FA6DA652D58967C792E259D98FF344DF /* LEGONavigationView.swift */,
-				1403EB32A456D681BAF59E5ED086155E /* LEGONavigationView+LEGONavigation.swift */,
-				ACC341E2E94A7716134C23FCBCA1F9D4 /* UIView+LEGONavigation.swift */,
-				9448F909643FF98A4E50D0F483358715 /* UIViewController+LEGONavigation.swift */,
-				DBBC7C96F88BD1C9DAFE8CA50F20F962 /* Pod */,
-				2EB4B4732CF0E329A65C1A9308CD6026 /* Resources */,
-				DD877B97C66B515F960CA4A812F2EDE5 /* Support Files */,
+				6D66325E2EE5AF751C00DCD3D6F51A46 /* Pods-LEGONavigationController-Swift_Tests.modulemap */,
+				C68A9EF13A66A91D74EA5493747B8A83 /* Pods-LEGONavigationController-Swift_Tests-acknowledgements.markdown */,
+				44E7C2762AEEE6DBC7BA1C5A25C0DD57 /* Pods-LEGONavigationController-Swift_Tests-acknowledgements.plist */,
+				42FB87829438AB7C37FF0B0031BC7254 /* Pods-LEGONavigationController-Swift_Tests-dummy.m */,
+				C884332D84AD5251A2A20E5D9F4B86A5 /* Pods-LEGONavigationController-Swift_Tests-Info.plist */,
+				6E5520C4ACC6F8831C0385E4C6F981B7 /* Pods-LEGONavigationController-Swift_Tests-umbrella.h */,
+				FE1CD035376FAF68C9AF587D72A17F15 /* Pods-LEGONavigationController-Swift_Tests.debug.xcconfig */,
+				C37CF72D49651BBDB63D88DB412782F5 /* Pods-LEGONavigationController-Swift_Tests.release.xcconfig */,
 			);
-			name = "LEGO-NavigationController";
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		3862D2F054C2F5116B1FEB420D5E3605 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				27BF3BCFECC7AD92ABA3BE36B4AD9D3F /* LEGO_NavigationController.framework */,
-				D9B6991C82E818AEDFE77E726706093A /* Pods_LEGO_NavigationController_Example.framework */,
-				6D89E89F73373A702B500A465D944D21 /* Pods_LEGO_NavigationController_Tests.framework */,
-				979486118B3E90C08386079D57962701 /* SnapKit.framework */,
-			);
-			name = Products;
+			name = "Pods-LEGONavigationController-Swift_Tests";
+			path = "Target Support Files/Pods-LEGONavigationController-Swift_Tests";
 			sourceTree = "<group>";
 		};
 		427B270BD76A5EF45313FBF29233B96D /* Pods */ = {
@@ -281,54 +236,59 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		6CBAFCFB02AC813B9F08D8BBE085F7FD /* Pods-LEGO-NavigationController_Example */ = {
+		7D62974C907E72DDBE3733DC430456B3 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				FAE03186B953226A35C3917C30A8B795 /* Pods-LEGO-NavigationController_Example.modulemap */,
-				B626072535B720528E03E8B12D6143D9 /* Pods-LEGO-NavigationController_Example-acknowledgements.markdown */,
-				06FA3A898F35A825077A70EE7E027966 /* Pods-LEGO-NavigationController_Example-acknowledgements.plist */,
-				E34662AD01000301C0A89CE023912692 /* Pods-LEGO-NavigationController_Example-dummy.m */,
-				7D10C38D056E68D326323575D668D7F2 /* Pods-LEGO-NavigationController_Example-frameworks.sh */,
-				D75116F0D02F94D7405FF3E9C300B6C8 /* Pods-LEGO-NavigationController_Example-Info.plist */,
-				479BE56CE89CF7F12233232C6119A600 /* Pods-LEGO-NavigationController_Example-umbrella.h */,
-				31DF3C0BA6B66F57AE0B35585A81593F /* Pods-LEGO-NavigationController_Example.debug.xcconfig */,
-				07F3D35A901E10C40658C511EA650DD1 /* Pods-LEGO-NavigationController_Example.release.xcconfig */,
+				24F13FD4F4791E7BBF0E6920B1414D20 /* LEGONavigationController-Swift.debug.xcconfig */,
+				96DEF73BBAA1FC7D74AC26C064253403 /* LEGONavigationController-Swift.release.xcconfig */,
 			);
-			name = "Pods-LEGO-NavigationController_Example";
-			path = "Target Support Files/Pods-LEGO-NavigationController_Example";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LEGONavigationController-Swift";
 			sourceTree = "<group>";
 		};
-		777BEE29B14E3FC643EF7A43FE9658FB /* Pods-LEGO-NavigationController_Tests */ = {
+		7FC542FA980A29D64739300A52B046D2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EED8C3F70671B331D4C89CE3B9315C7F /* Pods-LEGO-NavigationController_Tests.modulemap */,
-				56C96A445916FE6DCF415F483191B3A8 /* Pods-LEGO-NavigationController_Tests-acknowledgements.markdown */,
-				D284A42D040B17C75E63D90AD6DA3559 /* Pods-LEGO-NavigationController_Tests-acknowledgements.plist */,
-				72258DDA3FF2C0D267A301054C530F78 /* Pods-LEGO-NavigationController_Tests-dummy.m */,
-				E1B3D04E1343FA5510CC19AC2810DA15 /* Pods-LEGO-NavigationController_Tests-Info.plist */,
-				A58B096594289574F1F71C81ED3D395D /* Pods-LEGO-NavigationController_Tests-umbrella.h */,
-				368CA27610C3DA302FC86AD8435566EA /* Pods-LEGO-NavigationController_Tests.debug.xcconfig */,
-				F35D5EF9039C9C012DC88B5D588A97D3 /* Pods-LEGO-NavigationController_Tests.release.xcconfig */,
+				D9F1B0A9583C1AF93FC205499515DD1F /* Pods_LEGONavigationController_Swift_Example.framework */,
+				E80973542C64508F7010E7A7471499DA /* Pods_LEGONavigationController_Swift_Tests.framework */,
+				979486118B3E90C08386079D57962701 /* SnapKit.framework */,
 			);
-			name = "Pods-LEGO-NavigationController_Tests";
-			path = "Target Support Files/Pods-LEGO-NavigationController_Tests";
+			name = Products;
 			sourceTree = "<group>";
 		};
-		8FA98FB6DEC1EBBF19FC86F930251D67 /* Development Pods */ = {
+		9BC4BBC878A618D6C28994EE62935C9F /* Pods-LEGONavigationController-Swift_Example */ = {
 			isa = PBXGroup;
 			children = (
-				317404F4EAC9A5961AFB4CC68CFE4E8E /* LEGO-NavigationController */,
+				54402B17215BD9809B6FA082269E7166 /* Pods-LEGONavigationController-Swift_Example.modulemap */,
+				3001236B8207AEF3ADE27CA283ABC24A /* Pods-LEGONavigationController-Swift_Example-acknowledgements.markdown */,
+				959D32237F7CC368DBB5F7DC52EA4F40 /* Pods-LEGONavigationController-Swift_Example-acknowledgements.plist */,
+				1D8FF280319143330FF20AA8152A4AB6 /* Pods-LEGONavigationController-Swift_Example-dummy.m */,
+				A90C2D52C517C5DAFE95D5E1C86AFBE2 /* Pods-LEGONavigationController-Swift_Example-frameworks.sh */,
+				25D55FCAC802EEC5C267B81695D239A7 /* Pods-LEGONavigationController-Swift_Example-Info.plist */,
+				2E32C4E5953321C9E78335576F16E818 /* Pods-LEGONavigationController-Swift_Example-umbrella.h */,
+				C91818DE46C98E083B15C00B5277B6D7 /* Pods-LEGONavigationController-Swift_Example.debug.xcconfig */,
+				30C21F0E557E035ECEAF9E8EEE7B230C /* Pods-LEGONavigationController-Swift_Example.release.xcconfig */,
 			);
-			name = "Development Pods";
+			name = "Pods-LEGONavigationController-Swift_Example";
+			path = "Target Support Files/Pods-LEGONavigationController-Swift_Example";
 			sourceTree = "<group>";
 		};
-		A5295F30F49CEBECAE3FA01C1DA73F8C /* Frameworks */ = {
+		AE0A02E38E0B7B4847E0A7EC369FDF19 /* LEGONavigationController-Swift */ = {
 			isa = PBXGroup;
 			children = (
-				E769393FE2F7DCF3E342575F5DF05239 /* SnapKit.framework */,
-				040271065E2E0D1F6D89FFE704DB583D /* iOS */,
+				DD92AA83B6D04E05AFFCEBDB02F32C12 /* Pod */,
+				7D62974C907E72DDBE3733DC430456B3 /* Support Files */,
 			);
-			name = Frameworks;
+			name = "LEGONavigationController-Swift";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		CA51EB6A266DFF60E2669DC4F20AE5DD /* SnapKit */ = {
@@ -378,12 +338,20 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				8FA98FB6DEC1EBBF19FC86F930251D67 /* Development Pods */,
-				A5295F30F49CEBECAE3FA01C1DA73F8C /* Frameworks */,
+				2B5A98F6E170B405F0B4AB643FFA4846 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				427B270BD76A5EF45313FBF29233B96D /* Pods */,
-				3862D2F054C2F5116B1FEB420D5E3605 /* Products */,
-				1CA1B4747A96B56A7B63E2495E7224CC /* Targets Support Files */,
+				7FC542FA980A29D64739300A52B046D2 /* Products */,
+				1FA2ABDB3D860B6BAA973868788C78B9 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		D28E246011041898C1EA6C3AAF01971C /* Support Files */ = {
@@ -401,63 +369,40 @@
 			path = "../Target Support Files/SnapKit";
 			sourceTree = "<group>";
 		};
-		DBBC7C96F88BD1C9DAFE8CA50F20F962 /* Pod */ = {
+		DD92AA83B6D04E05AFFCEBDB02F32C12 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				1E197EB329528A08199355BB4DC86009 /* LEGO-NavigationController.podspec */,
-				3E5BA8474A59F014EB7CAE650E16966F /* LICENSE */,
-				C0C5A4FC96B79094F871F27E1ED523D1 /* README.md */,
+				89A34A3947C0FEC05248D4931FEC94DA /* LEGONavigationController-Swift.podspec */,
+				050B52D402F5AAAA7D3E171705337B02 /* LICENSE */,
+				BC3C22E7FC475A109EE654FA65D1974C /* README.md */,
 			);
 			name = Pod;
-			sourceTree = "<group>";
-		};
-		DD877B97C66B515F960CA4A812F2EDE5 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				8E51B6D9EB503D7602BD44F07316094D /* LEGO-NavigationController.modulemap */,
-				5361AD5B3FC7C9909487D9D91E12DF9D /* LEGO-NavigationController-dummy.m */,
-				32FE1EFA637DC4506704AAA9C734569B /* LEGO-NavigationController-Info.plist */,
-				CFDB602FFAFBC946626C4876AE501CE0 /* LEGO-NavigationController-prefix.pch */,
-				DF094EE7A54EB421475E674489D2589F /* LEGO-NavigationController-umbrella.h */,
-				F952A793A86D3B0A6F80A30D087D8E6A /* LEGO-NavigationController.debug.xcconfig */,
-				FACBD6102F6C938D5CD1A3E87748A56F /* LEGO-NavigationController.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/LEGO-NavigationController";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2587FED094C2F63651E4A3B2E3AF4D0A /* Headers */ = {
+		00918F843CD3FD0B241D7C10703DE144 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				206797C0FC0197206DA59597B48AFE71 /* Pods-LEGO-NavigationController_Example-umbrella.h in Headers */,
+				0BC4E014738E4471546E4D012FC36E6D /* Pods-LEGONavigationController-Swift_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		643E5026C9DD0CEAB6B0C204B21BC6B2 /* Headers */ = {
+		708F088EDDF2E1BAA6D63A7597E4D2BC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFFB334CB28198216328E7482F6A89F3 /* LEGO-NavigationController-umbrella.h in Headers */,
+				37588E3E4DA890F35A6BDA53EC31CC43 /* SnapKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9AA7788EE0270F4BA6378A92CEEA33CF /* Headers */ = {
+		C8F7A4BB2A7A5BE49160A3AAE9310F27 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22FA2F8417C1356A50F26F0B4AB44D78 /* SnapKit-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9F16FB591160E11C3DFE75E4992EBCFC /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C20A3BD09F9D14535983AD597174F8D8 /* Pods-LEGO-NavigationController_Tests-umbrella.h in Headers */,
+				E4D91B949952FF7B8B0BDF2BA3F55725 /* Pods-LEGONavigationController-Swift_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,12 +411,12 @@
 /* Begin PBXNativeTarget section */
 		19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BFFB80B179599587BDD28BC3C78CF68A /* Build configuration list for PBXNativeTarget "SnapKit" */;
+			buildConfigurationList = 485B0328A5A4DD24684F3EB76B7A2D75 /* Build configuration list for PBXNativeTarget "SnapKit" */;
 			buildPhases = (
-				9AA7788EE0270F4BA6378A92CEEA33CF /* Headers */,
-				3669156D675FA353F35EEE031D18DC20 /* Sources */,
-				448883B32C09B1F44B23DFD69963989A /* Frameworks */,
-				FF32F15394870A7938F7425E455A0598 /* Resources */,
+				708F088EDDF2E1BAA6D63A7597E4D2BC /* Headers */,
+				04247D9EF6BEC4B7DA53B42CA6E3B9DB /* Sources */,
+				4E154E3D21738E8C9191AF3C19EC33F3 /* Frameworks */,
+				D7C8638BA68720ABDBEFED8FF256DD3D /* Resources */,
 			);
 			buildRules = (
 			);
@@ -482,62 +427,43 @@
 			productReference = 979486118B3E90C08386079D57962701 /* SnapKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		29ACED58D9A1DB0323C8A0A413AAF829 /* Pods-LEGO-NavigationController_Tests */ = {
+		7E71526A0B52215EE271B762598C4D79 /* Pods-LEGONavigationController-Swift_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FFDD73606704F741C9230C3CB40CE812 /* Build configuration list for PBXNativeTarget "Pods-LEGO-NavigationController_Tests" */;
+			buildConfigurationList = 189881274A9C7B9EB4DB0E2F2EAB1EC3 /* Build configuration list for PBXNativeTarget "Pods-LEGONavigationController-Swift_Example" */;
 			buildPhases = (
-				9F16FB591160E11C3DFE75E4992EBCFC /* Headers */,
-				03D6CACC78B6D1F67D2E08A1C5DBC062 /* Sources */,
-				5A1C0D056EE95BF4658C822D562A9610 /* Frameworks */,
-				D9EE82D1416BA9D6733A3CEC33A22A61 /* Resources */,
+				C8F7A4BB2A7A5BE49160A3AAE9310F27 /* Headers */,
+				77ED2EF8E58D085928A8DF42DD8DC6E6 /* Sources */,
+				0D3E69E3DAEA1C3F4B4F1A75DFE1BA69 /* Frameworks */,
+				EF8395A6D41F166AC53D4D95B408DEC9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				60033438DF64A592A4A853D64ADF1DD1 /* PBXTargetDependency */,
+				53A64B860BF3FB8E2E521E13AB7472AE /* PBXTargetDependency */,
+				D95AC7CDC721740A2D12F80D7AC13853 /* PBXTargetDependency */,
 			);
-			name = "Pods-LEGO-NavigationController_Tests";
-			productName = "Pods-LEGO-NavigationController_Tests";
-			productReference = 6D89E89F73373A702B500A465D944D21 /* Pods_LEGO_NavigationController_Tests.framework */;
+			name = "Pods-LEGONavigationController-Swift_Example";
+			productName = "Pods-LEGONavigationController-Swift_Example";
+			productReference = D9F1B0A9583C1AF93FC205499515DD1F /* Pods_LEGONavigationController_Swift_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		9489208F6C376EC6D10E8C42C18B2C1A /* LEGO-NavigationController */ = {
+		B2B97B8BFA2C4A83F185E7C430F7A342 /* Pods-LEGONavigationController-Swift_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 78567C27CA915F05960D306775B345CB /* Build configuration list for PBXNativeTarget "LEGO-NavigationController" */;
+			buildConfigurationList = 8D11F10C0CBCD218C62ADA510355C889 /* Build configuration list for PBXNativeTarget "Pods-LEGONavigationController-Swift_Tests" */;
 			buildPhases = (
-				643E5026C9DD0CEAB6B0C204B21BC6B2 /* Headers */,
-				1174976FD173E5EB1684ED7C10B5BC54 /* Sources */,
-				97EE40EBECBE58DB5A9F02344825E082 /* Frameworks */,
-				398C26996537A5ADE1CBE45202536ACD /* Resources */,
+				00918F843CD3FD0B241D7C10703DE144 /* Headers */,
+				68434915CD111B21A8C93B2CC6207E9B /* Sources */,
+				DDA221970C0FD3BCBA737BD9DF1CDF94 /* Frameworks */,
+				8CC6372DE925213ABC2962577BF4388D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F3B9EF26550DE1F95BCEA832870D70DB /* PBXTargetDependency */,
+				6094D3991BBB47097AF9CC712273B5CE /* PBXTargetDependency */,
 			);
-			name = "LEGO-NavigationController";
-			productName = "LEGO-NavigationController";
-			productReference = 27BF3BCFECC7AD92ABA3BE36B4AD9D3F /* LEGO_NavigationController.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		A0E368D95196B3867D51D549176A1D30 /* Pods-LEGO-NavigationController_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7BADE66B780AF5E8CA7DBD2FC0B96083 /* Build configuration list for PBXNativeTarget "Pods-LEGO-NavigationController_Example" */;
-			buildPhases = (
-				2587FED094C2F63651E4A3B2E3AF4D0A /* Headers */,
-				EDE72E90EB40CD0168D81E968F1DCECB /* Sources */,
-				A17A7CABCF46836A525B4F78BDB4E446 /* Frameworks */,
-				3E537EE439369AF489D9786CDD775053 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2A340944B48952D80746E622E41841F9 /* PBXTargetDependency */,
-				BE78DFBAB63EC355FDCFE395E4C2E15E /* PBXTargetDependency */,
-			);
-			name = "Pods-LEGO-NavigationController_Example";
-			productName = "Pods-LEGO-NavigationController_Example";
-			productReference = D9B6991C82E818AEDFE77E726706093A /* Pods_LEGO_NavigationController_Example.framework */;
+			name = "Pods-LEGONavigationController-Swift_Tests";
+			productName = "Pods-LEGONavigationController-Swift_Tests";
+			productReference = E80973542C64508F7010E7A7471499DA /* Pods_LEGONavigationController_Swift_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -558,42 +484,34 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 3862D2F054C2F5116B1FEB420D5E3605 /* Products */;
+			productRefGroup = 7FC542FA980A29D64739300A52B046D2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9489208F6C376EC6D10E8C42C18B2C1A /* LEGO-NavigationController */,
-				A0E368D95196B3867D51D549176A1D30 /* Pods-LEGO-NavigationController_Example */,
-				29ACED58D9A1DB0323C8A0A413AAF829 /* Pods-LEGO-NavigationController_Tests */,
+				A9C3E2905E90355ADA4C8898E7169E1C /* LEGONavigationController-Swift */,
+				7E71526A0B52215EE271B762598C4D79 /* Pods-LEGONavigationController-Swift_Example */,
+				B2B97B8BFA2C4A83F185E7C430F7A342 /* Pods-LEGONavigationController-Swift_Tests */,
 				19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		398C26996537A5ADE1CBE45202536ACD /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				16CDE3DCDCB573F99E377871CAD5DF8C /* LEGONavigationController.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3E537EE439369AF489D9786CDD775053 /* Resources */ = {
+		8CC6372DE925213ABC2962577BF4388D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D9EE82D1416BA9D6733A3CEC33A22A61 /* Resources */ = {
+		D7C8638BA68720ABDBEFED8FF256DD3D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FF32F15394870A7938F7425E455A0598 /* Resources */ = {
+		EF8395A6D41F166AC53D4D95B408DEC9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -603,114 +521,98 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		03D6CACC78B6D1F67D2E08A1C5DBC062 /* Sources */ = {
+		04247D9EF6BEC4B7DA53B42CA6E3B9DB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				172E637006C30E632098C0C9723051B9 /* Pods-LEGO-NavigationController_Tests-dummy.m in Sources */,
+				C82031ADD18665AA27744853883F7CB8 /* Constraint.swift in Sources */,
+				D838BF789014BDBCC01246FCB2B6DBBA /* ConstraintAttributes.swift in Sources */,
+				547F78ADACA50A9730C03D68DD84FED2 /* ConstraintConfig.swift in Sources */,
+				6EB07E377F7A4A0D99DDB50A6E1B28B3 /* ConstraintConstantTarget.swift in Sources */,
+				6E375C76C9F97D0E08B77A991B178D9E /* ConstraintDescription.swift in Sources */,
+				3273B055A5E69678D5CFD38AE70A7D94 /* ConstraintDSL.swift in Sources */,
+				46C7B1AF55B368BF5322A6065E6C5FFB /* ConstraintInsets.swift in Sources */,
+				7292BD60AA46F1038E155AA1146E53D8 /* ConstraintInsetTarget.swift in Sources */,
+				A8FF42D3B0904BB5DDB287B76B4640F7 /* ConstraintItem.swift in Sources */,
+				8937244CDA8E3DD99663C1CB286716B8 /* ConstraintLayoutGuide+Extensions.swift in Sources */,
+				056C7CAD3F83583947705CD88CAA17E9 /* ConstraintLayoutGuide.swift in Sources */,
+				7F85669C3825629375AD2F8BD4E90D60 /* ConstraintLayoutGuideDSL.swift in Sources */,
+				7264AE1B3397A48882A9C3037FD4C9CC /* ConstraintLayoutSupport.swift in Sources */,
+				647CEA30CA3033A988B22FD426CDE78A /* ConstraintLayoutSupportDSL.swift in Sources */,
+				D4D7B7E9CE36610B74DC11E28AF948FA /* ConstraintMaker.swift in Sources */,
+				B21B491985985BA2405BAE8F2943E56F /* ConstraintMakerEditable.swift in Sources */,
+				60108CECA995766833F37EAA1C92E506 /* ConstraintMakerExtendable.swift in Sources */,
+				7AD22D8A8226C5F75EB1D02E6469A1AC /* ConstraintMakerFinalizable.swift in Sources */,
+				7E3A0B654B2CB1EAE636D2E57CAD1084 /* ConstraintMakerPriortizable.swift in Sources */,
+				C07CF6BDCDAFF299336C4B91F1F41CCD /* ConstraintMakerRelatable.swift in Sources */,
+				45027E4DB67DC2C78C85DE572485E4F6 /* ConstraintMultiplierTarget.swift in Sources */,
+				A1995A910BA996B567476459B9C4458A /* ConstraintOffsetTarget.swift in Sources */,
+				12294175AF9F043B45BADB56096F7ACE /* ConstraintPriority.swift in Sources */,
+				0426678E216547470FB7D9371E81D91E /* ConstraintPriorityTarget.swift in Sources */,
+				32DE7F64D40E08D41BBF575FB78C8260 /* ConstraintRelatableTarget.swift in Sources */,
+				A89C497CFA7A279C56F32CC10E8EC10D /* ConstraintRelation.swift in Sources */,
+				EA586BBFC11ACEEBD12CADEE88C19F7E /* ConstraintView+Extensions.swift in Sources */,
+				22E2FF682B71BE4C0C3AA5201EBEC0DE /* ConstraintView.swift in Sources */,
+				12E2C81DF1E13E7B13E180342D1B0399 /* ConstraintViewDSL.swift in Sources */,
+				8F2E0340415199404E33A952B8523478 /* Debugging.swift in Sources */,
+				063DF652C9983584F7E51691295F9F01 /* LayoutConstraint.swift in Sources */,
+				2DE74A2A288EE747A3007E1E31F79CDE /* LayoutConstraintItem.swift in Sources */,
+				64E78C3DBAD14FA1AABA5E146805BB13 /* SnapKit-dummy.m in Sources */,
+				BAE8B432CBF9D52ECA7591D4826E4DD1 /* Typealiases.swift in Sources */,
+				401231790ACC95B8C4791259E1C20441 /* UILayoutSupport+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1174976FD173E5EB1684ED7C10B5BC54 /* Sources */ = {
+		68434915CD111B21A8C93B2CC6207E9B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89367608D55B5C7474696EC187FC52F6 /* LEGO-NavigationController-dummy.m in Sources */,
-				A32A347123DB6B5BC25DC2F1D03A7E4C /* LEGONavigationComman.swift in Sources */,
-				E4DE03BA721F4122E2F40188EDF96413 /* LEGONavigationController.swift in Sources */,
-				A2F8853CEB15D47566D15486630E9A62 /* LEGONavigationView+LEGONavigation.swift in Sources */,
-				95AC51A41146B5898C9BBE46DC8EF2F4 /* LEGONavigationView.swift in Sources */,
-				29762A0DF0BA60AEF21F2F401634EBC3 /* UIView+LEGONavigation.swift in Sources */,
-				A02AFF0D081E07A7AB5538DA47A29306 /* UIViewController+LEGONavigation.swift in Sources */,
+				FCAB1450D254EECB0BF8077EF52DAB6A /* Pods-LEGONavigationController-Swift_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3669156D675FA353F35EEE031D18DC20 /* Sources */ = {
+		77ED2EF8E58D085928A8DF42DD8DC6E6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42BD32FFA38C2A202D7C70D01B8DEE37 /* Constraint.swift in Sources */,
-				199DBD2E051C18FD06A6B50DAF0F6C8C /* ConstraintAttributes.swift in Sources */,
-				C1E8220AA924029E86318FBE82D92892 /* ConstraintConfig.swift in Sources */,
-				2F32F72BD055DC92F75C41A7878FC955 /* ConstraintConstantTarget.swift in Sources */,
-				C660F0AF37EEE0203024B2D8EF352651 /* ConstraintDescription.swift in Sources */,
-				076E19EAFC0DAB4208343720C1FB7249 /* ConstraintDSL.swift in Sources */,
-				5B459335F8CCECA4FD210219521F14B8 /* ConstraintInsets.swift in Sources */,
-				789BDF79D14F5E7FA62BE495839898C5 /* ConstraintInsetTarget.swift in Sources */,
-				68AFFE7EEE43C6AB5239201D6AD48C8B /* ConstraintItem.swift in Sources */,
-				69EC1085EF63830764B47C13C07CEC42 /* ConstraintLayoutGuide+Extensions.swift in Sources */,
-				5D826F85DC48E3E1594762724322D208 /* ConstraintLayoutGuide.swift in Sources */,
-				3DA9DB533B5A1563FED2D4DD2E2D23FB /* ConstraintLayoutGuideDSL.swift in Sources */,
-				ED55578B589B06A33C8BA85D7D3AA9DB /* ConstraintLayoutSupport.swift in Sources */,
-				70A2244102F9F67AFEE69601C1D686AD /* ConstraintLayoutSupportDSL.swift in Sources */,
-				6CC739E7F72C2ADF86F87C098A6D2C08 /* ConstraintMaker.swift in Sources */,
-				5515A721D93418ABE27CD01BFD7961AB /* ConstraintMakerEditable.swift in Sources */,
-				600D721B5F082F7B50F5EF02299D2537 /* ConstraintMakerExtendable.swift in Sources */,
-				879BDCD813001DE6320E389A87BDF2CF /* ConstraintMakerFinalizable.swift in Sources */,
-				2842084D320CE055A80B80072BBFD0FB /* ConstraintMakerPriortizable.swift in Sources */,
-				661F170FE86731910D58B91FBE554AC9 /* ConstraintMakerRelatable.swift in Sources */,
-				CB5F89F08AF22F769367719AE9E1D216 /* ConstraintMultiplierTarget.swift in Sources */,
-				C93F5B9800B8B6303CFA00366C29372C /* ConstraintOffsetTarget.swift in Sources */,
-				E3BC2169DA294A60991D98C280E83553 /* ConstraintPriority.swift in Sources */,
-				A970E0504F6BB854D8A8B74A22AFA9C1 /* ConstraintPriorityTarget.swift in Sources */,
-				D5384F4F7ACFD8362AE92FF5C673E24E /* ConstraintRelatableTarget.swift in Sources */,
-				E3863BC256938946AA1C27FFB8F8A00A /* ConstraintRelation.swift in Sources */,
-				5D9FB3D547337CB3CF92135B0F6B1909 /* ConstraintView+Extensions.swift in Sources */,
-				852F03F4B97F5FB0C10502F23926719D /* ConstraintView.swift in Sources */,
-				41606093D0C3C5AAE5173B1CB9E7F6C3 /* ConstraintViewDSL.swift in Sources */,
-				7958FCD80C60D8E032A2C24E7E0C160E /* Debugging.swift in Sources */,
-				52B357969384CD509D28966BE36D524C /* LayoutConstraint.swift in Sources */,
-				71567C28A8DD99FB960421A097E3F402 /* LayoutConstraintItem.swift in Sources */,
-				DF4040EF6F9597F7D836723C6B424292 /* SnapKit-dummy.m in Sources */,
-				7302E6BD33C59156AF241B0C561D34AC /* Typealiases.swift in Sources */,
-				C4DC941CF961F8776505CFDB339BE2AF /* UILayoutSupport+Extensions.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EDE72E90EB40CD0168D81E968F1DCECB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				17696C7BAADB9EA6E0B1EFC210812268 /* Pods-LEGO-NavigationController_Example-dummy.m in Sources */,
+				621E4B9D5E9683B58E8E764330F39659 /* Pods-LEGONavigationController-Swift_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2A340944B48952D80746E622E41841F9 /* PBXTargetDependency */ = {
+		53A64B860BF3FB8E2E521E13AB7472AE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "LEGO-NavigationController";
-			target = 9489208F6C376EC6D10E8C42C18B2C1A /* LEGO-NavigationController */;
-			targetProxy = 23CD14451CFA760A51589C7554D1DC8F /* PBXContainerItemProxy */;
+			name = "LEGONavigationController-Swift";
+			target = A9C3E2905E90355ADA4C8898E7169E1C /* LEGONavigationController-Swift */;
+			targetProxy = 14200ADD94F037DDFCC83C60A7E08D84 /* PBXContainerItemProxy */;
 		};
-		60033438DF64A592A4A853D64ADF1DD1 /* PBXTargetDependency */ = {
+		6094D3991BBB47097AF9CC712273B5CE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-LEGO-NavigationController_Example";
-			target = A0E368D95196B3867D51D549176A1D30 /* Pods-LEGO-NavigationController_Example */;
-			targetProxy = 9B042C637AB6FC6D9A18FE956E32D32D /* PBXContainerItemProxy */;
+			name = "Pods-LEGONavigationController-Swift_Example";
+			target = 7E71526A0B52215EE271B762598C4D79 /* Pods-LEGONavigationController-Swift_Example */;
+			targetProxy = 9119943F022E187E69258FF1673656A6 /* PBXContainerItemProxy */;
 		};
-		BE78DFBAB63EC355FDCFE395E4C2E15E /* PBXTargetDependency */ = {
+		891E0863FDA95C1B5CCD667D6E1D38F5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SnapKit;
 			target = 19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */;
-			targetProxy = 5E60046FEE2D38CC7B766661C21EDB00 /* PBXContainerItemProxy */;
+			targetProxy = 01653A5295A04BF29B685E65404A0066 /* PBXContainerItemProxy */;
 		};
-		F3B9EF26550DE1F95BCEA832870D70DB /* PBXTargetDependency */ = {
+		D95AC7CDC721740A2D12F80D7AC13853 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SnapKit;
 			target = 19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */;
-			targetProxy = 9D6EC059380818FCF38A935A3DBA0A8B /* PBXContainerItemProxy */;
+			targetProxy = 64DA36B3ECEC11E463A93E549EE4B7F9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0B3560BB494D08D86A5F7E8E376CEF93 /* Release */ = {
+		1003BEDD736E5DB1CC8F1D1AD558D8D6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 07F3D35A901E10C40658C511EA650DD1 /* Pods-LEGO-NavigationController_Example.release.xcconfig */;
+			baseConfigurationReference = B8BEF98EFE5AA5B53394A45BAC472945 /* SnapKit.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -720,12 +622,109 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LEGO-NavigationController_Example/Pods-LEGO-NavigationController_Example-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/SnapKit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				PRODUCT_MODULE_NAME = SnapKit;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2819E6A393D98537F039A3E8A8F7220E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29693EC049D6AC1AE94A7B743D01A9AB /* SnapKit.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/SnapKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				PRODUCT_MODULE_NAME = SnapKit;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7B363F3762140D6F9E7854BE2AF44F26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C91818DE46C98E083B15C00B5277B6D7 /* Pods-LEGONavigationController-Swift_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LEGONavigationController-Swift_Example/Pods-LEGONavigationController-Swift_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LEGO-NavigationController_Example/Pods-LEGO-NavigationController_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-LEGONavigationController-Swift_Example/Pods-LEGONavigationController-Swift_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7BB54D942D4CD3D210530075F3B49363 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30C21F0E557E035ECEAF9E8EEE7B230C /* Pods-LEGONavigationController-Swift_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LEGONavigationController-Swift_Example/Pods-LEGONavigationController-Swift_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LEGONavigationController-Swift_Example/Pods-LEGONavigationController-Swift_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -740,7 +739,101 @@
 			};
 			name = Release;
 		};
-		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
+		A2277E0C1E2432C67264B0B005392FCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C37CF72D49651BBDB63D88DB412782F5 /* Pods-LEGONavigationController-Swift_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LEGONavigationController-Swift_Tests/Pods-LEGONavigationController-Swift_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LEGONavigationController-Swift_Tests/Pods-LEGONavigationController-Swift_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -791,7 +884,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -804,76 +897,25 @@
 			};
 			name = Debug;
 		};
-		2A9EE54C7A26E72E2BA2C7C221FC88E1 /* Debug */ = {
+		BCAE0CAD48EC0C73C6DF94ACB87DD0E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F952A793A86D3B0A6F80A30D087D8E6A /* LEGO-NavigationController.debug.xcconfig */;
+			baseConfigurationReference = 24F13FD4F4791E7BBF0E6920B1414D20 /* LEGONavigationController-Swift.debug.xcconfig */;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LEGO-NavigationController/LEGO-NavigationController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LEGO-NavigationController/LEGO-NavigationController-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LEGO-NavigationController/LEGO-NavigationController.modulemap";
-				PRODUCT_MODULE_NAME = LEGO_NavigationController;
-				PRODUCT_NAME = LEGO_NavigationController;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		44120516FCC6B36BC3D9CD1C717F3C58 /* Release */ = {
+		C5CB2845679432F86E517A617D521B9E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B8BEF98EFE5AA5B53394A45BAC472945 /* SnapKit.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SnapKit/SnapKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
-				PRODUCT_MODULE_NAME = SnapKit;
-				PRODUCT_NAME = SnapKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		496274D8F159AC083E280A5E1BBDE65D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 31DF3C0BA6B66F57AE0B35585A81593F /* Pods-LEGO-NavigationController_Example.debug.xcconfig */;
+			baseConfigurationReference = FE1CD035376FAF68C9AF587D72A17F15 /* Pods-LEGONavigationController-Swift_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -883,12 +925,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LEGO-NavigationController_Example/Pods-LEGO-NavigationController_Example-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-LEGONavigationController-Swift_Tests/Pods-LEGONavigationController-Swift_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LEGO-NavigationController_Example/Pods-LEGO-NavigationController_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-LEGONavigationController-Swift_Tests/Pods-LEGONavigationController-Swift_Tests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -902,243 +944,65 @@
 			};
 			name = Debug;
 		};
-		7F9C3A5CB4D70EB214F9FF9D9F920967 /* Debug */ = {
+		D33E4CE24CDF4FF4D323E7DDC330E86C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 29693EC049D6AC1AE94A7B743D01A9AB /* SnapKit.debug.xcconfig */;
+			baseConfigurationReference = 96DEF73BBAA1FC7D74AC26C064253403 /* LEGONavigationController-Swift.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SnapKit/SnapKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
-				PRODUCT_MODULE_NAME = SnapKit;
-				PRODUCT_NAME = SnapKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		A2C1F82785873126B0514A976EE1A561 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F35D5EF9039C9C012DC88B5D588A97D3 /* Pods-LEGO-NavigationController_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LEGO-NavigationController_Tests/Pods-LEGO-NavigationController_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LEGO-NavigationController_Tests/Pods-LEGO-NavigationController_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		D5A35552BF226F70E88ED55DD8658D1D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FACBD6102F6C938D5CD1A3E87748A56F /* LEGO-NavigationController.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LEGO-NavigationController/LEGO-NavigationController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LEGO-NavigationController/LEGO-NavigationController-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LEGO-NavigationController/LEGO-NavigationController.modulemap";
-				PRODUCT_MODULE_NAME = LEGO_NavigationController;
-				PRODUCT_NAME = LEGO_NavigationController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		DC828E82EF5CA45018482550E7B6EC70 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 368CA27610C3DA302FC86AD8435566EA /* Pods-LEGO-NavigationController_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LEGO-NavigationController_Tests/Pods-LEGO-NavigationController_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LEGO-NavigationController_Tests/Pods-LEGO-NavigationController_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		189881274A9C7B9EB4DB0E2F2EAB1EC3 /* Build configuration list for PBXNativeTarget "Pods-LEGONavigationController-Swift_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B363F3762140D6F9E7854BE2AF44F26 /* Debug */,
+				7BB54D942D4CD3D210530075F3B49363 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				196DFA3E4A09A28224918543529A1885 /* Debug */,
-				B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */,
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		78567C27CA915F05960D306775B345CB /* Build configuration list for PBXNativeTarget "LEGO-NavigationController" */ = {
+		485B0328A5A4DD24684F3EB76B7A2D75 /* Build configuration list for PBXNativeTarget "SnapKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2A9EE54C7A26E72E2BA2C7C221FC88E1 /* Debug */,
-				D5A35552BF226F70E88ED55DD8658D1D /* Release */,
+				2819E6A393D98537F039A3E8A8F7220E /* Debug */,
+				1003BEDD736E5DB1CC8F1D1AD558D8D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7BADE66B780AF5E8CA7DBD2FC0B96083 /* Build configuration list for PBXNativeTarget "Pods-LEGO-NavigationController_Example" */ = {
+		72BBA25464A33BC2EAA3378B22E3707F /* Build configuration list for PBXAggregateTarget "LEGONavigationController-Swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				496274D8F159AC083E280A5E1BBDE65D /* Debug */,
-				0B3560BB494D08D86A5F7E8E376CEF93 /* Release */,
+				BCAE0CAD48EC0C73C6DF94ACB87DD0E2 /* Debug */,
+				D33E4CE24CDF4FF4D323E7DDC330E86C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BFFB80B179599587BDD28BC3C78CF68A /* Build configuration list for PBXNativeTarget "SnapKit" */ = {
+		8D11F10C0CBCD218C62ADA510355C889 /* Build configuration list for PBXNativeTarget "Pods-LEGONavigationController-Swift_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7F9C3A5CB4D70EB214F9FF9D9F920967 /* Debug */,
-				44120516FCC6B36BC3D9CD1C717F3C58 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FFDD73606704F741C9230C3CB40CE812 /* Build configuration list for PBXNativeTarget "Pods-LEGO-NavigationController_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DC828E82EF5CA45018482550E7B6EC70 /* Debug */,
-				A2C1F82785873126B0514A976EE1A561 /* Release */,
+				C5CB2845679432F86E517A617D521B9E /* Debug */,
+				A2277E0C1E2432C67264B0B005392FCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

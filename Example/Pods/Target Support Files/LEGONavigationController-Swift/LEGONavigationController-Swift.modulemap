@@ -1,0 +1,6 @@
+framework module LEGONavigationController_Swift {
+  umbrella header "LEGONavigationController-Swift-umbrella.h"
+
+  export *
+  module * { export * }
+}

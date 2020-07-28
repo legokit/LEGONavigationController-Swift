@@ -1,6 +1,0 @@
-framework module Pods_LEGO_NavigationController_Example {
-  umbrella header "Pods-LEGO-NavigationController_Example-umbrella.h"
-
-  export *
-  module * { export * }
-}
