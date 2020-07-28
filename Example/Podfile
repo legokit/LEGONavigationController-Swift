@@ -1,7 +1,11 @@
-#use_frameworks!
+use_frameworks!
 
-target 'LEGONavigationController-Swift' do
-  pod 'LEGONavigationController-Swift', :path => '../'
+target 'LEGO-NavigationController_Example' do
+  pod 'LEGO-NavigationController', :path => '../'
 
+  target 'LEGO-NavigationController_Tests' do
+    inherit! :search_paths
 
+    
+  end
 end

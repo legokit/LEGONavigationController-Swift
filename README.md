@@ -1,9 +1,9 @@
-# LEGONavigationController-Swift
+# LEGO-NavigationController
 
-[![CI Status](https://img.shields.io/travis/564008993@qq.com/LEGONavigationController-Swift.svg?style=flat)](https://travis-ci.org/564008993@qq.com/LEGONavigationController-Swift)
-[![Version](https://img.shields.io/cocoapods/v/LEGONavigationController-Swift.svg?style=flat)](https://cocoapods.org/pods/LEGONavigationController-Swift)
-[![License](https://img.shields.io/cocoapods/l/LEGONavigationController-Swift.svg?style=flat)](https://cocoapods.org/pods/LEGONavigationController-Swift)
-[![Platform](https://img.shields.io/cocoapods/p/LEGONavigationController-Swift.svg?style=flat)](https://cocoapods.org/pods/LEGONavigationController-Swift)
+[![CI Status](https://img.shields.io/travis/564008993@qq.com/LEGO-NavigationController.svg?style=flat)](https://travis-ci.org/564008993@qq.com/LEGO-NavigationController)
+[![Version](https://img.shields.io/cocoapods/v/LEGO-NavigationController.svg?style=flat)](https://cocoapods.org/pods/LEGO-NavigationController)
+[![License](https://img.shields.io/cocoapods/l/LEGO-NavigationController.svg?style=flat)](https://cocoapods.org/pods/LEGO-NavigationController)
+[![Platform](https://img.shields.io/cocoapods/p/LEGO-NavigationController.svg?style=flat)](https://cocoapods.org/pods/LEGO-NavigationController)
 
 ## Example
 
@@ -13,11 +13,11 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-LEGONavigationController-Swift is available through [CocoaPods](https://cocoapods.org). To install
+LEGO-NavigationController is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'LEGONavigationController-Swift'
+pod 'LEGO-NavigationController'
 ```
 
 ## Author
@@ -26,4 +26,4 @@ pod 'LEGONavigationController-Swift'
 
 ## License
 
-LEGONavigationController-Swift is available under the MIT license. See the LICENSE file for more info.
+LEGO-NavigationController is available under the MIT license. See the LICENSE file for more info.
