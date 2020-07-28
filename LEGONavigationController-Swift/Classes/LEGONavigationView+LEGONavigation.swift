@@ -12,33 +12,33 @@ import UIKit
 extension LEGONavigationView {
     
     @discardableResult
-    func setTitle(text: String?) -> UILabel {
+    public func setTitle(text: String?) -> UILabel {
         titleLabel.text = text
         return titleLabel
     }
     
     @discardableResult
-    func setTitleAttributedString(attributedString: NSAttributedString?) -> UILabel {
+    public func setTitleAttributedString(attributedString: NSAttributedString?) -> UILabel {
         titleLabel.attributedText = attributedString
         return titleLabel
     }
     
     @discardableResult
-    func setRightButton(text: String?, callback: LEGONavigationCallback?) -> LEGONavigationButton {
+    public func setRightButton(text: String?, callback: LEGONavigationCallback?) -> LEGONavigationButton {
         rightButton.setTitle(text, for: .normal)
         rightCallback = callback
         return rightButton
     }
     
     @discardableResult
-    func setRightButtonAttributedString(text: NSAttributedString?, callback: LEGONavigationCallback?) -> LEGONavigationButton {
+    public func setRightButtonAttributedString(text: NSAttributedString?, callback: LEGONavigationCallback?) -> LEGONavigationButton {
         rightButton.setAttributedTitle(text, for: .normal)
         rightCallback = callback
         return rightButton
     }
     
     @discardableResult
-    func setLeftButton(text: String?, callback: LEGONavigationCallback?) -> LEGONavigationButton {
+    public func setLeftButton(text: String?, callback: LEGONavigationCallback?) -> LEGONavigationButton {
         leftButton.setTitle(text, for: .normal)
         leftCallback = callback
         leftButton.isHidden = false
@@ -47,7 +47,7 @@ extension LEGONavigationView {
     }
     
     @discardableResult
-    func setLeftButtonAttributedString(text: NSAttributedString?, callback: LEGONavigationCallback?) -> LEGONavigationButton {
+    public func setLeftButtonAttributedString(text: NSAttributedString?, callback: LEGONavigationCallback?) -> LEGONavigationButton {
         leftButton.setAttributedTitle(text, for: .normal)
         leftCallback = callback
         leftButton.isHidden = false
@@ -56,7 +56,7 @@ extension LEGONavigationView {
     }
     
     @discardableResult
-    func setBackButton(callback: LEGONavigationCallback?) -> LEGONavigationButton {
+    public func setBackButton(callback: LEGONavigationCallback?) -> LEGONavigationButton {
         leftButton.isHidden = true
         backButton.isHidden = false
         leftCallback = callback
@@ -64,7 +64,7 @@ extension LEGONavigationView {
     }
     
     @discardableResult
-    func setBackButton(image: UIImage?, callback: LEGONavigationCallback?) -> LEGONavigationButton {
+    public func setBackButton(image: UIImage?, callback: LEGONavigationCallback?) -> LEGONavigationButton {
         leftButton.isHidden = true
         backButton.isHidden = false
         backButton.setImage(image, for: .normal)

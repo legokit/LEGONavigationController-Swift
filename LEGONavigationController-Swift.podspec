@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LEGONavigationController-Swift'
-    s.version          = '0.1.1.1'
+    s.version          = '1.0.0'
     s.summary          = 'A short description of LEGO-NavigationController.'
 
     # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
     s.ios.deployment_target = '10.0'
 
-    s.source_files = 'LEGONavigationController-Swift/Classes/**/*'
+    s.source_files = 'LEGONavigationController-Swift','LEGONavigationController-Swift/Classes/**/*'
     s.resource = 'LEGONavigationController-Swift/Assets/*.bundle'
     s.swift_version = '5.0'
 
@@ -38,7 +38,7 @@ Pod::Spec.new do |s|
 
     s.dependency 'SnapKit'
 
-    s.public_header_files = "LEGONavigationController-Swift/Classes/**/*"
+#    s.public_header_files = "LEGONavigationController-Swift/Classes/**/*"
 
     # s.resource_bundles = {
     #   'LEGO-NavigationController' => ['LEGO-NavigationController/Assets/*.png']

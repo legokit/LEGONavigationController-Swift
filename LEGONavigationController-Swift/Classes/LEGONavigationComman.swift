@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 import SnapKit
 
-let legoNaviationIsPhoneX: Bool = {
+public let legoNaviationIsPhoneX: Bool = {
         var isPhoneX = false
         if #available(iOS 11.0, *) {
             let windows = UIApplication.shared.windows
@@ -30,11 +30,11 @@ let legoNaviationIsPhoneX: Bool = {
         return isPhoneX
 }()
 
-let legoNaviationParam = LEGONaviationParameter()
+public let legoNaviationParam = LEGONaviationParameter()
 
-let legoNavitionHeight = legoNaviationParam.naviationMargan + legoNaviationParam.naviationSautusBar
+public let legoNavitionHeight = legoNaviationParam.naviationMargan + legoNaviationParam.naviationSautusBar
 
-class LEGONaviationParameter: NSObject {
+public class LEGONaviationParameter: NSObject {
     
     var naviationMargan = legoNaviationIsPhoneX ? 44 : 20
     var naviationSautusBar = 44

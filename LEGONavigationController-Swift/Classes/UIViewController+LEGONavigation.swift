@@ -15,7 +15,7 @@ extension UIViewController {
         static var navigationView: UIView = UIView()
     }
     
-    func navigationView() -> LEGONavigationView {
+    public func navigationView() -> LEGONavigationView {
         var navigationView = objc_getAssociatedObject(self, &LEGONavigationKeys.navigationView)
         if navigationView == nil {
             if self.navigationController == nil {
@@ -30,7 +30,7 @@ extension UIViewController {
     }
     
     /// 由于 Swift 的方法替换没有很好的支持，故需要 addsubview 最后显示调用 bringSubviewToFront
-    func bringNavigationToFront() {
+    public func bringNavigationToFront() {
         self.view.bringSubviewToFront(self.navigationView())
     }
 }

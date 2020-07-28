@@ -18,7 +18,10 @@
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "LEGONavigationController-Swift/Classes/**/*",
+  "source_files": [
+    "LEGONavigationController-Swift",
+    "LEGONavigationController-Swift/Classes/**/*"
+  ],
   "resources": "LEGONavigationController-Swift/Assets/*.bundle",
   "swift_versions": "5.0",
   "frameworks": [
@@ -30,6 +33,5 @@
 
     ]
   },
-  "public_header_files": "LEGONavigationController-Swift/Classes/**/*",
   "swift_version": "5.0"
 }

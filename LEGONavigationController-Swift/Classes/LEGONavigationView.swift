@@ -8,13 +8,13 @@
 
 import UIKit
 
-typealias LEGONavigationCallback  = () -> Void
+public typealias LEGONavigationCallback  = () -> Void
 
-class LEGONavigationView: UIView {
+public class LEGONavigationView: UIView {
 
-    var navigationBar = UIView()
+    public var navigationBar = UIView()
         
-    lazy var titleLabel: UILabel = {
+    public lazy var titleLabel: UILabel = {
         let label = UILabel()
         label.textColor = legoNaviationParam.titleColor
         label.font = legoNaviationParam.titleFont
@@ -22,7 +22,7 @@ class LEGONavigationView: UIView {
         return label
     }()
     
-    lazy var rightButton: LEGONavigationButton = {
+    public lazy var rightButton: LEGONavigationButton = {
         let button = LEGONavigationButton()
         button.setTitleColor(legoNaviationParam.rightColor, for: UIControl.State.normal)
         button.titleLabel?.font = legoNaviationParam.rightFont
@@ -30,7 +30,7 @@ class LEGONavigationView: UIView {
         return button
     }()
    
-    lazy var leftButton: LEGONavigationButton = {
+    public lazy var leftButton: LEGONavigationButton = {
         let button = LEGONavigationButton()
         button.setTitleColor(legoNaviationParam.rightColor, for: UIControl.State.normal)
         button.titleLabel?.font = legoNaviationParam.rightFont
@@ -39,7 +39,7 @@ class LEGONavigationView: UIView {
         return button
     }()
     
-    lazy var backButton: LEGONavigationButton = {
+    public lazy var backButton: LEGONavigationButton = {
         let button = LEGONavigationButton()
         button.setImage(legoNaviationParam.backIcon, for: .normal)
         button.imageView?.contentMode = .scaleAspectFit
@@ -70,26 +70,26 @@ class LEGONavigationView: UIView {
         
         self.addSubview(titleLabel)
         titleLabel.snp.makeConstraints { (make) in
-            make.centerX.equalTo(navigationBar.snp_centerX)
-            make.centerY.equalTo(navigationBar.snp_centerY)
+            make.centerX.equalTo(navigationBar.snp.centerX)
+            make.centerY.equalTo(navigationBar.snp.centerY)
         }
         
         self.addSubview(rightButton)
         rightButton.snp.makeConstraints { (make) in
             make.right.equalTo(self).offset(-15)
-            make.centerY.equalTo(self.navigationBar.snp_centerY)
+            make.centerY.equalTo(self.navigationBar.snp.centerY)
         }
         
         self.addSubview(leftButton)
         leftButton.snp.makeConstraints { (make) in
             make.left.equalTo(self).offset(15)
-            make.centerY.equalTo(self.navigationBar.snp_centerY)
+            make.centerY.equalTo(self.navigationBar.snp.centerY)
         }
         
         self.addSubview(backButton)
         backButton.snp.makeConstraints { (make) in
             make.left.equalTo(self).offset(7.5)
-            make.centerY.equalTo(self.navigationBar.snp_centerY)
+            make.centerY.equalTo(self.navigationBar.snp.centerY)
             make.size.equalTo(legoNaviationParam.backSize)
         }
     }
@@ -107,7 +107,7 @@ class LEGONavigationView: UIView {
     }
 }
 
-class LEGONavigationButton: UIButton {
+public class LEGONavigationButton: UIButton {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -130,7 +130,7 @@ class LEGONavigationButton: UIButton {
         self.alpha = 1
     }
     
-    override func point(inside point: CGPoint, with event: UIEvent?) -> Bool {
+    public override func point(inside point: CGPoint, with event: UIEvent?) -> Bool {
         var bounds = self.bounds
         bounds = CGRect.init(x: bounds.origin.x - 20, y: bounds.origin.y - 10, width: bounds.size.width + 40, height: bounds.size.height + 20)
         return bounds.contains(point)

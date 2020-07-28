@@ -8,7 +8,7 @@
 
 import UIKit
 
-class LEGONavigationController: UINavigationController {
+public class LEGONavigationController: UINavigationController {
 
     let navigationView: LEGONavigationView = {
         let view = LEGONavigationView(frame: CGRect.init(x: 0, y: 0, width: Int(UIScreen.main.bounds.size.width), height: legoNavitionHeight))
@@ -16,7 +16,7 @@ class LEGONavigationController: UINavigationController {
         return view
     }()
     
-    override func viewDidLoad() {
+    public override func viewDidLoad() {
         super.viewDidLoad()
 
         self.isNavigationBarHidden = false
@@ -25,7 +25,7 @@ class LEGONavigationController: UINavigationController {
         // Do any additional setup after loading the view.
     }
     
-    override func pushViewController(_ viewController: UIViewController, animated: Bool) {
+    public override func pushViewController(_ viewController: UIViewController, animated: Bool) {
         guard self.viewControllers.contains(viewController) == false else {
             return
         }

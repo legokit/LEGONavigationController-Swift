@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LEGONavigationController-Swift: 1a7dde4aea1b2c77c0e2a608635367e96c53a602
+  LEGONavigationController-Swift: cd6dc37fd39521f27b732f3f091c9fed543d558b
   SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
 
 PODFILE CHECKSUM: 3d040e9fff781c175af623a532e793069828865e
