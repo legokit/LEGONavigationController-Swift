@@ -1,0 +1,32 @@
+{
+  "name": "LEGONavigationController-Swift",
+  "version": "0.1.0",
+  "summary": "A short description of LEGONavigationController-Swift.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/legokit/LEGONavigationController-Swift",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "564008993@qq.com": "yangqingren@yy.com"
+  },
+  "source": {
+    "git": "https://github.com/legokit/LEGONavigationController-Swift.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "LEGONavigationController-Swift/Classes/**/*",
+  "resources": "LEGONavigationController-Swift/Assets/*.bundle",
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "dependencies": {
+    "SnapKit": [
+
+    ]
+  }
+}

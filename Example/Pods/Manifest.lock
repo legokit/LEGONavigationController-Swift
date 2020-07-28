@@ -1,0 +1,23 @@
+PODS:
+  - LEGONavigationController-Swift (0.1.0):
+    - SnapKit
+  - SnapKit (4.2.0)
+
+DEPENDENCIES:
+  - LEGONavigationController-Swift (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - SnapKit
+
+EXTERNAL SOURCES:
+  LEGONavigationController-Swift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LEGONavigationController-Swift: 47e2cd4353ff9a48085dd36685efc60062365af5
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+
+PODFILE CHECKSUM: 3576832fee32e4d7b55702d413f32dc30345807b
+
+COCOAPODS: 1.9.1

@@ -1,0 +1,11 @@
+#use_frameworks!
+
+target 'LEGONavigationController-Swift_Example' do
+  pod 'LEGONavigationController-Swift', :path => '../'
+
+  target 'LEGONavigationController-Swift_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
