@@ -1,5 +1,5 @@
 PODS:
-  - LEGONavigationController-Swift (0.1.0):
+  - LEGONavigationController-Swift (0.1.1):
     - SnapKit
   - SnapKit (5.0.1)
 
@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LEGONavigationController-Swift: fef79a0fc5cd65ab031969bd3b4cae0555a99ad7
+  LEGONavigationController-Swift: 0c03e8c434339cd7d49f864de1935ca4b69c632e
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
 
 PODFILE CHECKSUM: b614668e8bd632555677282d8b18b5b7d1770fd3

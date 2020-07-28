@@ -32,6 +32,7 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'LEGONavigationController-Swift/Classes/**/*'
   s.resource = 'LEGONavigationController-Swift/Assets/*.bundle'
+  s.swift_version = '5.0'
 
   s.frameworks = 'UIKit', 'Foundation'
   
