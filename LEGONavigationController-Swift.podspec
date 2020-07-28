@@ -30,15 +30,15 @@ Pod::Spec.new do |s|
 
     s.ios.deployment_target = '10.0'
 
-    s.source_files = 'LEGO-NavigationController/Classes/**/*'
-    s.resource = 'LEGO-NavigationController/Assets/*.bundle'
+    s.source_files = 'LEGONavigationController-Swift/Classes/**/*'
+    s.resource = 'LEGONavigationController-Swift/Assets/*.bundle'
     s.swift_version = '5.0'
 
     s.frameworks = 'UIKit', 'Foundation'
 
     s.dependency 'SnapKit'
 
-    s.public_header_files = "LEGO-NavigationController/Classes/**/*"
+    s.public_header_files = "LEGONavigationController-Swift/Classes/**/*"
 
     # s.resource_bundles = {
     #   'LEGO-NavigationController' => ['LEGO-NavigationController/Assets/*.png']

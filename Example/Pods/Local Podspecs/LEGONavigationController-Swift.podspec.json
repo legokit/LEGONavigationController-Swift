@@ -18,8 +18,8 @@
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "LEGO-NavigationController/Classes/**/*",
-  "resources": "LEGO-NavigationController/Assets/*.bundle",
+  "source_files": "LEGONavigationController-Swift/Classes/**/*",
+  "resources": "LEGONavigationController-Swift/Assets/*.bundle",
   "swift_versions": "5.0",
   "frameworks": [
     "UIKit",
@@ -30,6 +30,6 @@
 
     ]
   },
-  "public_header_files": "LEGO-NavigationController/Classes/**/*",
+  "public_header_files": "LEGONavigationController-Swift/Classes/**/*",
   "swift_version": "5.0"
 }
