@@ -32,26 +32,26 @@ public let legoNaviationIsPhoneX: Bool = {
 
 public let legoNaviationParam = LEGONaviationParameter()
 
-public let legoNavitionHeight = legoNaviationParam.naviationMargan + legoNaviationParam.naviationSautusBar
+public let legoNavitionHeight = legoNaviationParam.naviationMargan + legoNaviationParam.naviationBar
 
 public class LEGONaviationParameter: NSObject {
     
-    var naviationMargan = legoNaviationIsPhoneX ? 44 : 20
-    var naviationSautusBar = 44
+    public var naviationMargan = legoNaviationIsPhoneX ? 44 : 20
+    public var naviationBar = 44
     
-    var backgroundColor = UIColor.black
+    public var backgroundColor = UIColor.black
     // title
-    var titleColor = UIColor.white
-    var titleFont = UIFont.systemFont(ofSize: 15, weight: UIFont.Weight.regular)
+    public var titleColor = UIColor.white
+    public var titleFont = UIFont.systemFont(ofSize: 15, weight: UIFont.Weight.regular)
     // left
-    var backIcon = UIImage.init(named: "LEGONavigationController.bundle/icon_back_white")
-    var backSize = CGSize.init(width: 44, height: 44)
-    var leftColor = UIColor.white
-    var leftFont = UIFont.systemFont(ofSize: 15, weight: UIFont.Weight.regular)
+    public var backIcon = UIImage.init(named: "LEGONavigationController.bundle/icon_back_white")
+    public var backSize = CGSize.init(width: 44, height: 44)
+    public var leftColor = UIColor.white
+    public var leftFont = UIFont.systemFont(ofSize: 15, weight: UIFont.Weight.regular)
     
     // right
-    var rightColor = UIColor.white
-    var rightFont = UIFont.systemFont(ofSize: 15, weight: UIFont.Weight.regular)
+    public var rightColor = UIColor.white
+    public var rightFont = UIFont.systemFont(ofSize: 15, weight: UIFont.Weight.regular)
     
     
     

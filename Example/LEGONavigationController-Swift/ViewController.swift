@@ -14,6 +14,17 @@ class ViewController: UIViewController {
         super.viewDidLoad()
     
         
+        legoNaviationParam.backgroundColor = UIColor.gray
+
+        self.navigationView().setTitle(text: "1231")
+
+        self.navigationView().setRightButton(text: "123123") {
+
+        }
+        self.navigationView().setBackButton {
+
+        }
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 

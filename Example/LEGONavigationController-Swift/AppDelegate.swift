@@ -7,15 +7,25 @@
 //
 
 import UIKit
+import SnapKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-    var window: UIWindow?
+    var window: UIWindow? = {
+        let window = UIWindow.init(frame: UIScreen.main.bounds)
+        window.makeKeyAndVisible()
+        return window
+    }()
 
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
+        let vc = ViewController()
+           
+       let nav = LEGONavigationController.init(rootViewController: vc)
+       
+       window?.rootViewController = nav
         
         // Override point for customization after application launch.
         return true

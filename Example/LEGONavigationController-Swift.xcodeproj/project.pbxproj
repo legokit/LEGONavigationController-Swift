@@ -14,6 +14,14 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		7CB61B2DD9A9DE866E4294FF /* Pods_LEGONavigationController_Swift_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1825AC9D6D672542A5CAE4E /* Pods_LEGONavigationController_Swift_Example.framework */; };
 		CA7D0EF9A5FD76B132266440 /* Pods_LEGONavigationController_Swift_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2A278F77B505F2B21A67D5B /* Pods_LEGONavigationController_Swift_Tests.framework */; };
+		E8D5EE1824D192A100799A74 /* UIView+LEGONavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D5EE0E24D192A100799A74 /* UIView+LEGONavigation.swift */; };
+		E8D5EE1924D192A100799A74 /* LEGONavigationView+LEGONavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D5EE0F24D192A100799A74 /* LEGONavigationView+LEGONavigation.swift */; };
+		E8D5EE1B24D192A100799A74 /* LEGONavigationComman.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D5EE1124D192A100799A74 /* LEGONavigationComman.swift */; };
+		E8D5EE1C24D192A100799A74 /* LEGONavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D5EE1224D192A100799A74 /* LEGONavigationController.swift */; };
+		E8D5EE1D24D192A100799A74 /* LEGONavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D5EE1324D192A100799A74 /* LEGONavigationView.swift */; };
+		E8D5EE1E24D192A100799A74 /* UIViewController+LEGONavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D5EE1424D192A100799A74 /* UIViewController+LEGONavigation.swift */; };
+		E8D5EE1F24D192A100799A74 /* LEGONavigationController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E8D5EE1624D192A100799A74 /* LEGONavigationController.bundle */; };
+		E8D5EE2024D192A100799A74 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = E8D5EE1724D192A100799A74 /* .gitkeep */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +52,14 @@
 		C1825AC9D6D672542A5CAE4E /* Pods_LEGONavigationController_Swift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LEGONavigationController_Swift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEF2FF7E542F549757DD62E9 /* Pods-LEGONavigationController-Swift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LEGONavigationController-Swift_Example.debug.xcconfig"; path = "Target Support Files/Pods-LEGONavigationController-Swift_Example/Pods-LEGONavigationController-Swift_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E2A278F77B505F2B21A67D5B /* Pods_LEGONavigationController_Swift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LEGONavigationController_Swift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E8B4F7CF24D0720F00B7900A /* LEGONavigationController_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LEGONavigationController_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8D5EE0E24D192A100799A74 /* UIView+LEGONavigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+LEGONavigation.swift"; sourceTree = "<group>"; };
+		E8D5EE0F24D192A100799A74 /* LEGONavigationView+LEGONavigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LEGONavigationView+LEGONavigation.swift"; sourceTree = "<group>"; };
+		E8D5EE1124D192A100799A74 /* LEGONavigationComman.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LEGONavigationComman.swift; sourceTree = "<group>"; };
+		E8D5EE1224D192A100799A74 /* LEGONavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LEGONavigationController.swift; sourceTree = "<group>"; };
+		E8D5EE1324D192A100799A74 /* LEGONavigationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LEGONavigationView.swift; sourceTree = "<group>"; };
+		E8D5EE1424D192A100799A74 /* UIViewController+LEGONavigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+LEGONavigation.swift"; sourceTree = "<group>"; };
+		E8D5EE1624D192A100799A74 /* LEGONavigationController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LEGONavigationController.bundle; sourceTree = "<group>"; };
+		E8D5EE1724D192A100799A74 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		F17144BD98CFA6423499C208 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -82,7 +97,6 @@
 		4843896052567CBE471DE4C9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E8B4F7CF24D0720F00B7900A /* LEGONavigationController_Swift.framework */,
 				C1825AC9D6D672542A5CAE4E /* Pods_LEGONavigationController_Swift_Example.framework */,
 				E2A278F77B505F2B21A67D5B /* Pods_LEGONavigationController_Swift_Tests.framework */,
 			);
@@ -113,6 +127,7 @@
 		607FACD21AFB9204008FA782 /* Example for LEGONavigationController-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				E8D5EE0C24D192A100799A74 /* LEGONavigationController-Swift */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -156,6 +171,38 @@
 				B9FEF9C8463061962BA6A536 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		E8D5EE0C24D192A100799A74 /* LEGONavigationController-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				E8D5EE0D24D192A100799A74 /* Classes */,
+				E8D5EE1524D192A100799A74 /* Assets */,
+			);
+			name = "LEGONavigationController-Swift";
+			path = "../../LEGONavigationController-Swift";
+			sourceTree = "<group>";
+		};
+		E8D5EE0D24D192A100799A74 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E8D5EE0E24D192A100799A74 /* UIView+LEGONavigation.swift */,
+				E8D5EE0F24D192A100799A74 /* LEGONavigationView+LEGONavigation.swift */,
+				E8D5EE1124D192A100799A74 /* LEGONavigationComman.swift */,
+				E8D5EE1224D192A100799A74 /* LEGONavigationController.swift */,
+				E8D5EE1324D192A100799A74 /* LEGONavigationView.swift */,
+				E8D5EE1424D192A100799A74 /* UIViewController+LEGONavigation.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E8D5EE1524D192A100799A74 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				E8D5EE1624D192A100799A74 /* LEGONavigationController.bundle */,
+				E8D5EE1724D192A100799A74 /* .gitkeep */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,10 +258,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = TD97KS79S9;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = TD97KS79S9;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -247,6 +296,8 @@
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				E8D5EE1F24D192A100799A74 /* LEGONavigationController.bundle in Resources */,
+				E8D5EE2024D192A100799A74 /* .gitkeep in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -333,7 +384,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				E8D5EE1824D192A100799A74 /* UIView+LEGONavigation.swift in Sources */,
+				E8D5EE1C24D192A100799A74 /* LEGONavigationController.swift in Sources */,
+				E8D5EE1924D192A100799A74 /* LEGONavigationView+LEGONavigation.swift in Sources */,
+				E8D5EE1B24D192A100799A74 /* LEGONavigationComman.swift in Sources */,
+				E8D5EE1D24D192A100799A74 /* LEGONavigationView.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				E8D5EE1E24D192A100799A74 /* UIViewController+LEGONavigation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,13 +535,15 @@
 			baseConfigurationReference = DEF2FF7E542F549757DD62E9 /* Pods-LEGONavigationController-Swift_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TD97KS79S9;
 				INFOPLIST_FILE = "LEGONavigationController-Swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fimo.camera.debug;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
 		};
@@ -493,13 +552,15 @@
 			baseConfigurationReference = BB109B4725085FF2CE835473 /* Pods-LEGONavigationController-Swift_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TD97KS79S9;
 				INFOPLIST_FILE = "LEGONavigationController-Swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fimo.camera.debug;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Release;
 		};
@@ -507,6 +568,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3BBAABCCD18D337BBA3A1B40 /* Pods-LEGONavigationController-Swift_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = TD97KS79S9;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -529,6 +591,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B1C948B33A619F82013AECA8 /* Pods-LEGONavigationController-Swift_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = TD97KS79S9;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
