@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class LEGONavigationController: UINavigationController {
+open class LEGONavigationController: UINavigationController {
 
     let navigationView: LEGONavigationView = {
         let view = LEGONavigationView(frame: CGRect.init(x: 0, y: 0, width: Int(UIScreen.main.bounds.size.width), height: legoNavitionHeight))
