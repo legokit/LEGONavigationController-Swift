@@ -16,7 +16,7 @@ public class LEGONavigationController: UINavigationController {
         return view
     }()
     
-    public override func viewDidLoad() {
+    open override func viewDidLoad() {
         super.viewDidLoad()
 
         self.isNavigationBarHidden = false
@@ -25,7 +25,7 @@ public class LEGONavigationController: UINavigationController {
         // Do any additional setup after loading the view.
     }
     
-    public override func pushViewController(_ viewController: UIViewController, animated: Bool) {
+    open override func pushViewController(_ viewController: UIViewController, animated: Bool) {
         guard self.viewControllers.contains(viewController) == false else {
             return
         }
