@@ -46,12 +46,16 @@ public class LEGONaviationParameter: NSObject {
     // left
     public var backIcon = UIImage.init(named: "LEGONavigationController.bundle/icon_back_white")
     public var backSize = CGSize.init(width: 44, height: 44)
+    public var backLeftMargan: CGFloat = 7.5
+    
     public var leftColor = UIColor.white
     public var leftFont = UIFont.systemFont(ofSize: 15, weight: UIFont.Weight.regular)
+    public var leftMargan: CGFloat = 15.0
     
     // right
     public var rightColor = UIColor.white
     public var rightFont = UIFont.systemFont(ofSize: 15, weight: UIFont.Weight.regular)
+    public var rightMargan: CGFloat = 15.0
     
     
     

@@ -76,19 +76,19 @@ public class LEGONavigationView: UIView {
         
         self.addSubview(rightButton)
         rightButton.snp.makeConstraints { (make) in
-            make.right.equalTo(self).offset(-15)
+            make.right.equalTo(self).offset(-legoNaviationParam.rightMargan)
             make.centerY.equalTo(self.navigationBar.snp.centerY)
         }
         
         self.addSubview(leftButton)
         leftButton.snp.makeConstraints { (make) in
-            make.left.equalTo(self).offset(15)
+            make.left.equalTo(self).offset(legoNaviationParam.leftMargan)
             make.centerY.equalTo(self.navigationBar.snp.centerY)
         }
         
         self.addSubview(backButton)
         backButton.snp.makeConstraints { (make) in
-            make.left.equalTo(self).offset(7.5)
+            make.left.equalTo(self).offset(legoNaviationParam.backLeftMargan)
             make.centerY.equalTo(self.navigationBar.snp.centerY)
             make.size.equalTo(legoNaviationParam.backSize)
         }
